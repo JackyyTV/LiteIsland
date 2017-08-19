@@ -1,0 +1,14 @@
+{
+  "minecraft:flowing_lava": 3,
+  "minecraft:lava": 3,
+  "minecraft:fire": 4,
+  "minecraft:torch": 1,
+  "tconstruct:firewood:0": 10,
+  "tconstruct:firewood:1": 15,
+  "torchmaster:mega_torch:0": 20,
+  "bigreactors:blockmetals:0": 50,
+  "immersiveengineering:storage:5": 50,
+  "thermalfoundation:fluid_pyrotheum": 80,
+  "draconicevolution:draconium_block": 100,
+  "draconicevolution:draconic_block": 150
+}

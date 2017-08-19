@@ -1,0 +1,14 @@
+{
+  "minecraft:cobblestone:0": {
+    "fluid": "lava",
+    "amount": 250
+  },
+  "minecraft:leaves:-1": {
+    "fluid": "water",
+    "amount": 250
+  },
+  "minecraft:leaves2:-1": {
+    "fluid": "water",
+    "amount": 250
+  }
+}
