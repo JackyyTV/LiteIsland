@@ -11,9 +11,8 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Lite Island",
-  "version": "1.0.1",
-  "author": "Jacky1356400",
-  "projectID": 274916,
+  "version": "1.0",
+  "author": "jacky1356400",
   "files": [
     {
       "projectID": 273430,
@@ -541,6 +540,11 @@
       "required": true
     },
     {
+      "projectID": 229503,
+      "fileID": 2458291,
+      "required": true
+    },
+    {
       "projectID": 247111,
       "fileID": 2449682,
       "required": true
@@ -573,11 +577,6 @@
     {
       "projectID": 252104,
       "fileID": 2453724,
-      "required": true
-    },
-    {
-      "projectID": 230976,
-      "fileID": 2463272,
       "required": true
     }
   ],
