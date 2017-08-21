@@ -3,7 +3,7 @@
     "version": "1.12.1",
     "modLoaders": [
       {
-        "id": "forge-14.22.0.2457",
+        "id": "forge-14.22.0.2459",
         "primary": true
       }
     ]
@@ -11,18 +11,13 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Lite Island",
-  "version": "1.0.1",
+  "version": "1.1",
   "author": "Jacky1356400",
   "projectID": 274916,
   "files": [
     {
       "projectID": 273430,
       "fileID": 2459131,
-      "required": true
-    },
-    {
-      "projectID": 228404,
-      "fileID": 2457236,
       "required": true
     },
     {
@@ -72,7 +67,7 @@
     },
     {
       "projectID": 239286,
-      "fileID": 2465120,
+      "fileID": 2466488,
       "required": true
     },
     {
@@ -192,12 +187,12 @@
     },
     {
       "projectID": 239197,
-      "fileID": 2462468,
+      "fileID": 2466316,
       "required": true
     },
     {
       "projectID": 260327,
-      "fileID": 2465566,
+      "fileID": 2466996,
       "required": true
     },
     {
@@ -287,7 +282,7 @@
     },
     {
       "projectID": 266515,
-      "fileID": 2463955,
+      "fileID": 2466721,
       "required": true
     },
     {
@@ -318,11 +313,6 @@
     {
       "projectID": 250617,
       "fileID": 2459427,
-      "required": true
-    },
-    {
-      "projectID": 268324,
-      "fileID": 2460821,
       "required": true
     },
     {
@@ -382,7 +372,7 @@
     },
     {
       "projectID": 274456,
-      "fileID": 2465408,
+      "fileID": 2466703,
       "required": true
     },
     {
@@ -532,7 +522,7 @@
     },
     {
       "projectID": 250850,
-      "fileID": 2465710,
+      "fileID": 2467145,
       "required": true
     },
     {
@@ -578,6 +568,26 @@
     {
       "projectID": 230976,
       "fileID": 2463272,
+      "required": true
+    },
+    {
+      "projectID": 252354,
+      "fileID": 2464501,
+      "required": true
+    },
+    {
+      "projectID": 268324,
+      "fileID": 2460821,
+      "required": true
+    },
+    {
+      "projectID": 260912,
+      "fileID": 2464091,
+      "required": true
+    },
+    {
+      "projectID": 228404,
+      "fileID": 2467235,
       "required": true
     }
   ],
