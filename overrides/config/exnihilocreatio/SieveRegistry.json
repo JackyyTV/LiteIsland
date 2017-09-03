@@ -81,7 +81,7 @@
       },
       "chance": 0.02,
       "meshLevel": 4
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_ardite",
@@ -90,7 +90,7 @@
       "chance": 0.02,
       "meshLevel": 4
     }
-  ],    
+  ],
   "minecraft:dirt:0": [
     {
       "drop": {
@@ -115,7 +115,7 @@
       },
       "chance": 0.04,
       "meshLevel": 1
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_seed_sugarcane",
@@ -139,7 +139,7 @@
       },
       "chance": 0.04,
       "meshLevel": 1
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_seed_birch",
@@ -147,7 +147,7 @@
       },
       "chance": 0.04,
       "meshLevel": 1
-    },  
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_seed_jungle",
@@ -155,7 +155,7 @@
       },
       "chance": 0.04,
       "meshLevel": 1
-    },  
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_seed_acacia",
@@ -163,7 +163,7 @@
       },
       "chance": 0.04,
       "meshLevel": 1
-    },  
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_seed_darkoak",
@@ -171,7 +171,7 @@
       },
       "chance": 0.04,
       "meshLevel": 1
-    },  
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_pebble",
@@ -275,7 +275,7 @@
       },
       "chance": 0.08,
       "meshLevel": 2
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_seed_sugarcane",
@@ -283,7 +283,7 @@
       },
       "chance": 0.08,
       "meshLevel": 2
-    }, 
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_pebble",
@@ -347,7 +347,7 @@
       },
       "chance": 0.65,
       "meshLevel": 2
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_pebble",
@@ -371,7 +371,7 @@
       },
       "chance": 0.35,
       "meshLevel": 2
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_pebble",
@@ -395,7 +395,7 @@
       },
       "chance": 0.15,
       "meshLevel": 2
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_pebble",
@@ -488,12 +488,20 @@
     },
     {
       "drop": {
+        "name": "exnihilocreatio:item_ore_tin",
+        "meta": 0
+      },
+      "chance": 0.075,
+      "meshLevel": 1
+    },
+    {
+      "drop": {
         "name": "exnihilocreatio:item_ore_aluminium",
         "meta": 0
       },
       "chance": 0.055,
       "meshLevel": 1
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_lead",
@@ -501,7 +509,7 @@
       },
       "chance": 0.03125,
       "meshLevel": 1
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_silver",
@@ -517,7 +525,7 @@
       },
       "chance": 0.03125,
       "meshLevel": 1
-    },      
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_seed_cactus",
@@ -552,12 +560,20 @@
     },
     {
       "drop": {
+        "name": "exnihilocreatio:item_ore_tin",
+        "meta": 0
+      },
+      "chance": 0.125,
+      "meshLevel": 2
+    },
+    {
+      "drop": {
         "name": "exnihilocreatio:item_ore_aluminium",
         "meta": 0
       },
       "chance": 0.11,
       "meshLevel": 2
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_lead",
@@ -565,7 +581,7 @@
       },
       "chance": 0.0625,
       "meshLevel": 2
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_silver",
@@ -581,7 +597,7 @@
       },
       "chance": 0.0625,
       "meshLevel": 2
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_seed_cactus",
@@ -621,7 +637,7 @@
       },
       "chance": 0.10,
       "meshLevel": 3
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_nickel",
@@ -629,7 +645,7 @@
       },
       "chance": 0.10,
       "meshLevel": 3
-    },    
+    },
     {
       "drop": {
         "name": "mysticalagriculture:crafting",
@@ -637,7 +653,7 @@
       },
       "chance": 0.08,
       "meshLevel": 3
-    }, 
+    },
     {
       "drop": {
         "name": "bigreactors:dustmetals",
@@ -662,7 +678,7 @@
       "chance": 0.01,
       "meshLevel": 3
     },
-	{
+    {
       "drop": {
         "name": "appliedenergistics2:material",
         "meta": 0
@@ -670,7 +686,7 @@
       "chance": 0.07,
       "meshLevel": 3
     },
-	{
+    {
       "drop": {
         "name": "appliedenergistics2:material",
         "meta": 1
@@ -685,7 +701,7 @@
       },
       "chance": 0.15,
       "meshLevel": 4
-    },  
+    },
     {
       "drop": {
         "name": "mysticalagriculture:crafting",
@@ -693,7 +709,7 @@
       },
       "chance": 0.16,
       "meshLevel": 4
-    }, 
+    },
     {
       "drop": {
         "name": "bigreactors:dustmetals",
@@ -710,7 +726,7 @@
       "chance": 0.03,
       "meshLevel": 4
     },
-	{
+    {
       "drop": {
         "name": "appliedenergistics2:material",
         "meta": 0
@@ -718,7 +734,7 @@
       "chance": 0.14,
       "meshLevel": 4
     },
-	{
+    {
       "drop": {
         "name": "appliedenergistics2:material",
         "meta": 1
@@ -754,12 +770,20 @@
     },
     {
       "drop": {
+        "name": "exnihilocreatio:item_ore_tin",
+        "meta": 0
+      },
+      "chance": 0.075,
+      "meshLevel": 1
+    },
+    {
+      "drop": {
         "name": "exnihilocreatio:item_ore_aluminium",
         "meta": 0
       },
       "chance": 0.055,
       "meshLevel": 1
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_lead",
@@ -767,7 +791,7 @@
       },
       "chance": 0.03125,
       "meshLevel": 1
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_silver",
@@ -783,7 +807,7 @@
       },
       "chance": 0.03125,
       "meshLevel": 1
-    }, 
+    },
     {
       "drop": {
         "name": "minecraft:flint",
@@ -818,12 +842,20 @@
     },
     {
       "drop": {
+        "name": "exnihilocreatio:item_ore_tin",
+        "meta": 0
+      },
+      "chance": 0.125,
+      "meshLevel": 2
+    },
+    {
+      "drop": {
         "name": "exnihilocreatio:item_ore_aluminium",
         "meta": 0
       },
       "chance": 0.11,
       "meshLevel": 2
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_lead",
@@ -831,7 +863,7 @@
       },
       "chance": 0.0625,
       "meshLevel": 2
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_silver",
@@ -847,7 +879,7 @@
       },
       "chance": 0.0625,
       "meshLevel": 2
-    },    
+    },
     {
       "drop": {
         "name": "minecraft:coal",
@@ -880,7 +912,7 @@
       "chance": 0.24,
       "meshLevel": 3
     },
-  
+
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_lead",
@@ -888,7 +920,7 @@
       },
       "chance": 0.10,
       "meshLevel": 3
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_nickel",
@@ -896,7 +928,7 @@
       },
       "chance": 0.10,
       "meshLevel": 3
-    },    
+    },
     {
       "drop": {
         "name": "minecraft:diamond",
@@ -904,7 +936,7 @@
       },
       "chance": 0.01,
       "meshLevel": 3
-    },  
+    },
     {
       "drop": {
         "name": "minecraft:dye",
@@ -936,7 +968,7 @@
       },
       "chance": 0.03,
       "meshLevel": 4
-    },  
+    },
     {
       "drop": {
         "name": "minecraft:emerald",
@@ -989,12 +1021,20 @@
     },
     {
       "drop": {
+        "name": "exnihilocreatio:item_ore_tin",
+        "meta": 0
+      },
+      "chance": 0.075,
+      "meshLevel": 1
+    },
+    {
+      "drop": {
         "name": "exnihilocreatio:item_ore_aluminium",
         "meta": 0
       },
       "chance": 0.055,
       "meshLevel": 1
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_lead",
@@ -1002,7 +1042,7 @@
       },
       "chance": 0.03125,
       "meshLevel": 1
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_silver",
@@ -1018,7 +1058,7 @@
       },
       "chance": 0.03125,
       "meshLevel": 1
-    }, 
+    },
     {
       "drop": {
         "name": "minecraft:dye",
@@ -1053,12 +1093,20 @@
     },
     {
       "drop": {
+        "name": "exnihilocreatio:item_ore_tin",
+        "meta": 0
+      },
+      "chance": 0.125,
+      "meshLevel": 2
+    },
+    {
+      "drop": {
         "name": "exnihilocreatio:item_ore_aluminium",
         "meta": 0
       },
       "chance": 0.11,
       "meshLevel": 2
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_lead",
@@ -1066,7 +1114,7 @@
       },
       "chance": 0.0625,
       "meshLevel": 2
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_silver",
@@ -1082,7 +1130,7 @@
       },
       "chance": 0.0625,
       "meshLevel": 2
-    },    
+    },
     {
       "drop": {
         "name": "minecraft:gunpowder",
@@ -1107,7 +1155,7 @@
       "chance": 0.06,
       "meshLevel": 2
     },
-	{
+    {
       "drop": {
         "name": "appliedenergistics2:material",
         "meta": 2
@@ -1115,7 +1163,7 @@
       "chance": 0.15,
       "meshLevel": 2
     },
-	{
+    {
       "drop": {
         "name": "appliedenergistics2:material",
         "meta": 45
@@ -1130,7 +1178,7 @@
       },
       "chance": 0.12,
       "meshLevel": 3
-    }, 
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_gold",
@@ -1154,7 +1202,7 @@
       },
       "chance": 0.10,
       "meshLevel": 3
-    },    
+    },
     {
       "drop": {
         "name": "exnihilocreatio:item_ore_nickel",
@@ -1162,7 +1210,7 @@
       },
       "chance": 0.10,
       "meshLevel": 3
-    },    
+    },
     {
       "drop": {
         "name": "minecraft:redstone",
@@ -1170,7 +1218,7 @@
       },
       "chance": 0.05,
       "meshLevel": 3
-    },  
+    },
     {
       "drop": {
         "name": "minecraft:glowstone_dust",
@@ -1178,7 +1226,7 @@
       },
       "chance": 0.0625,
       "meshLevel": 3
-    }, 
+    },
     {
       "drop": {
         "name": "minecraft:gunpowder",
@@ -1195,7 +1243,7 @@
       "chance": 0.05,
       "meshLevel": 3
     },
-	{
+    {
       "drop": {
         "name": "appliedenergistics2:material",
         "meta": 2
@@ -1203,7 +1251,7 @@
       "chance": 0.2,
       "meshLevel": 3
     },
-	{
+    {
       "drop": {
         "name": "appliedenergistics2:material",
         "meta": 45
@@ -1226,7 +1274,7 @@
       },
       "chance": 0.10,
       "meshLevel": 4
-    },  
+    },
     {
       "drop": {
         "name": "minecraft:glowstone_dust",
@@ -1234,7 +1282,7 @@
       },
       "chance": 0.125,
       "meshLevel": 4
-    }, 
+    },
     {
       "drop": {
         "name": "minecraft:gunpowder",
@@ -1251,7 +1299,7 @@
       "chance": 0.10,
       "meshLevel": 4
     },
-	{
+    {
       "drop": {
         "name": "appliedenergistics2:material",
         "meta": 2
@@ -1259,7 +1307,7 @@
       "chance": 0.25,
       "meshLevel": 4
     },
-	{
+    {
       "drop": {
         "name": "appliedenergistics2:material",
         "meta": 45
@@ -1267,12 +1315,30 @@
       "chance": 0.12,
       "meshLevel": 4
     },
-	{
+    {
       "drop": {
         "name": "mekanism:dust",
         "meta": 2
       },
       "chance": 0.12,
+      "meshLevel": 4
+    }
+  ],
+  "minecraft:magma:0":[
+    {
+      "drop": {
+        "name": "tp:lava_crystal",
+        "meta": 0
+      },
+      "chance": 0.123,
+      "meshLevel": 3
+    },
+    {
+      "drop": {
+        "name": "tp:lava_crystal",
+        "meta": 0
+      },
+      "chance": 0.3,
       "meshLevel": 4
     }
   ],
@@ -1356,7 +1422,7 @@
       },
       "chance": 0.20,
       "meshLevel": 1
-    }    
+    }
   ],
   "exnihilocreatio:block_endstone_crushed:0": [
     {
@@ -1393,10 +1459,26 @@
     },
     {
       "drop": {
+        "name": "tp:ender_dust",
+        "meta": 0
+      },
+      "chance": 0.05,
+      "meshLevel": 3
+    },
+    {
+      "drop": {
         "name": "draconicevolution:draconium_dust",
         "meta": 0
       },
       "chance": 0.075,
+      "meshLevel": 4
+    },
+    {
+      "drop": {
+        "name": "tp:ender_dust",
+        "meta": 0
+      },
+      "chance": 0.12,
       "meshLevel": 4
     },
     {

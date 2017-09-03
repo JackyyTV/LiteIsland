@@ -78,27 +78,27 @@
     {
       "target": "orange",
       "weight": 36,
-      "id": "OD:oreCopper"
+      "id": "thermalfoundation:ore:0"
     },
     {
       "target": "gray",
       "weight": 36,
-      "id": "OD:oreTin"
+      "id": "thermalfoundation:ore:1"
     },
     {
       "target": "silver",
       "weight": 22,
-      "id": "OD:oreSilver"
+      "id": "thermalfoundation:ore:2"
     },
     {
       "target": "purple",
       "weight": 30,
-      "id": "OD:oreLead"
+      "id": "thermalfoundation:ore:3"
     },
     {
       "target": "white",
       "weight": 26,
-      "id": "OD:oreAluminum"
+      "id": "thermalfoundation:ore:4"
     },
     {
       "target": "green",
@@ -108,7 +108,7 @@
     {
       "target": "yellow",
       "weight": 10,
-      "id": "OD:oreYellorite"
+      "id": "bigreactors:brore:0"
     },
     {
       "target": "light_blue",
@@ -133,17 +133,17 @@
     {
       "target": "gray",
       "weight": 13,
-      "id": "OD:oreNickel"
+      "id": "thermalfoundation:ore:5"
     },
     {
       "target": "light_blue",
       "weight": 9,
-      "id": "OD:orePlatinum"
+      "id": "thermalfoundation:ore:6"
     },
     {
       "target": "light_blue",
       "weight": 9,
-      "id": "OD:oreMithril"
+      "id": "thermalfoundation:ore:8"
     },
     {
       "target": "yellow",
@@ -163,12 +163,12 @@
     {
       "target": "blue",
       "weight": 10,
-      "id": "OD:oreCobalt"
+      "id": "tconstruct:ore:0"
     },
     {
       "target": "orange",
       "weight": 10,
-      "id": "OD:oreArdite"
+      "id": "tconstruct:ore:1"
     },
     {
       "target": "light_blue",
@@ -178,7 +178,7 @@
     {
       "target": "purple",
       "weight": 9,
-      "id": "OD:oreDraconium"
+      "id": "draconicevolutiom:draconium_ore:0"
     },
     {
       "target": "black",
@@ -203,7 +203,7 @@
     {
       "target": "white",
       "weight": 9,
-      "id": "OD:oreIridium"
+      "id": "thermalfoundation:ore:7"
     },
     {
       "target": "black",
@@ -213,7 +213,7 @@
     {
       "target": "silver",
       "weight": 16,
-      "id": "OD:oreOsmium"
+      "id": "mekanism:oreblock:0"
     },
     {
       "target": "white",

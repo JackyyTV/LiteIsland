@@ -25,181 +25,97 @@ recipes.addShapeless("null", null, [
 print("Loading recipes...");
 
 //=====Resolve recipe conflicts=====
-recipes.remove(<chiselsandbits:wrench_wood>);
-recipes.remove(<actuallyadditions:item_helm_emerald>);
-recipes.remove(<actuallyadditions:item_chest_emerald>);
-recipes.remove(<actuallyadditions:item_pants_emerald>);
-recipes.remove(<actuallyadditions:item_boots_emerald>);
-recipes.remove(<actuallyadditions:item_sword_emerald>);
-recipes.remove(<actuallyadditions:item_pickaxe_emerald>);
-recipes.remove(<actuallyadditions:item_axe_emerald>);
-recipes.remove(<actuallyadditions:item_shovel_emerald>);
-recipes.remove(<actuallyadditions:item_hoe_emerald>);
-recipes.remove(<cyclicmagic:emerald_sword>);
-recipes.remove(<cyclicmagic:emerald_pickaxe>);
-recipes.remove(<cyclicmagic:emerald_axe>);
-recipes.remove(<cyclicmagic:emerald_spade>);
-recipes.remove(<cyclicmagic:emerald_hoe>);
-recipes.remove(<actuallyadditions:item_helm_obsidian>);
-recipes.remove(<actuallyadditions:item_chest_obsidian>);
-recipes.remove(<actuallyadditions:item_pants_obsidian>);
-recipes.remove(<actuallyadditions:item_boots_obsidian>);
-recipes.remove(<actuallyadditions:item_sword_obsidian>);
-recipes.remove(<actuallyadditions:item_pickaxe_obsidian>);
-recipes.remove(<actuallyadditions:item_axe_obsidian>);
-recipes.remove(<actuallyadditions:item_shovel_obsidian>);
-recipes.remove(<actuallyadditions:item_hoe_obsidian>);
-recipes.remove(<mekanismtools:steelhelmet>);
-recipes.remove(<mekanismtools:steelchestplate>);
-recipes.remove(<mekanismtools:steelleggings>);
-recipes.remove(<mekanismtools:steelboots>);
-recipes.remove(<mekanismtools:steelsword>);
-recipes.remove(<mekanismtools:steelpickaxe>);
-recipes.remove(<mekanismtools:steelaxe>);
-recipes.remove(<mekanismtools:steelshovel>);
-recipes.remove(<mekanismtools:steelhoe>);
-recipes.remove(<mekanismtools:bronzehelmet>);
-recipes.remove(<mekanismtools:bronzechestplate>);
-recipes.remove(<mekanismtools:bronzeleggings>);
-recipes.remove(<mekanismtools:bronzeboots>);
-recipes.remove(<mekanismtools:bronzesword>);
-recipes.remove(<mekanismtools:bronzepickaxe>);
-recipes.remove(<mekanismtools:bronzeaxe>);
-recipes.remove(<mekanismtools:bronzeshovel>);
-recipes.remove(<mekanismtools:bronzehoe>);
-recipes.remove(<chisel:futura>);
+val ToBeRemoved = [
+  <chiselsandbits:wrench_wood>, <actuallyadditions:item_helm_emerald>, <actuallyadditions:item_chest_emerald>,
+  <actuallyadditions:item_pants_emerald>, <actuallyadditions:item_boots_emerald>, <actuallyadditions:item_sword_emerald>,
+  <actuallyadditions:item_pickaxe_emerald>, <actuallyadditions:item_axe_emerald>, <actuallyadditions:item_shovel_emerald>,
+  <actuallyadditions:item_hoe_emerald>, <cyclicmagic:emerald_sword>, <cyclicmagic:emerald_pickaxe>, <cyclicmagic:emerald_axe>,
+  <cyclicmagic:emerald_spade>, <cyclicmagic:emerald_hoe>, <actuallyadditions:item_helm_obsidian>,
+  <actuallyadditions:item_chest_obsidian>, <actuallyadditions:item_pants_obsidian>, <actuallyadditions:item_boots_obsidian>,
+  <actuallyadditions:item_sword_obsidian>, <actuallyadditions:item_pickaxe_obsidian>, <actuallyadditions:item_axe_obsidian>,
+  <actuallyadditions:item_shovel_obsidian>, <actuallyadditions:item_hoe_obsidian>, <mekanismtools:steelhelmet>,
+  <mekanismtools:steelchestplate>, <mekanismtools:steelleggings>, <mekanismtools:steelboots>, <mekanismtools:steelsword>,
+  <mekanismtools:steelpickaxe>, <mekanismtools:steelaxe>, <mekanismtools:steelshovel>,<mekanismtools:steelhoe>,
+  <mekanismtools:bronzehelmet>, <mekanismtools:bronzechestplate>, <mekanismtools:bronzeleggings>,
+  <mekanismtools:bronzeboots>, <mekanismtools:bronzesword>, <mekanismtools:bronzepickaxe>, <mekanismtools:bronzeaxe>,
+  <mekanismtools:bronzeshovel>, <mekanismtools:bronzehoe>, <quantumstorage:trashcan>, <quantumstorage:trashcanfluid>,
+  <tp:stone_torch>, <chisel:futura>, <excompressum:compressed_block:1>, <excompressum:compressed_block:2>,
+  <excompressum:compressed_block:3>, <excompressum:compressed_block:4>, <excompressum:compressed_block:5>,
+  <excompressum:compressed_block:9>, <excompressum:iron_mesh>, <hammercore:iron_gear>, <cyclicmagic:uncrafting_block>,
+  <betterbuilderswands:wanddiamond>, <betterbuilderswands:wandiron>, <tp:diamond_spear>, <tp:iron_spear>
+] as IIngredient[];
+for item in ToBeRemoved {
+  recipes.remove(item);
+}
+val ARInput = [
+  <cyclicmagic:emerald_helmet>, <cyclicmagic:emerald_chestplate>, <cyclicmagic:emerald_leggings>,
+  <cyclicmagic:emerald_boots>, <tp:emerald_sword>, <tp:emerald_pickaxe>, <tp:emerald_axe>,
+  <tp:emerald_spade>, <tp:emerald_hoe>, <cyclicmagic:emerald_sword>, <cyclicmagic:emerald_pickaxe>,
+  <cyclicmagic:emerald_axe>, <cyclicmagic:emerald_spade>, <cyclicmagic:emerald_hoe>, <tp:obsidian_sword>,
+  <tp:obsidian_pickaxe>, <tp:obsidian_axe>, <tp:obsidian_spade>, <tp:obsidian_hoe>, <tp:obsidian_helmet>,
+  <tp:obsidian_chestplate>, <tp:obsidian_leggings>, <tp:obsidian_boots>, <thermalfoundation:armor.helmet_steel>,
+  <thermalfoundation:armor.plate_steel>, <thermalfoundation:armor.legs_steel>, <thermalfoundation:armor.boots_steel>,
+  <thermalfoundation:tool.sword_steel>, <thermalfoundation:tool.pickaxe_steel>, <thermalfoundation:tool.axe_steel>,
+  <thermalfoundation:tool.shovel_steel>, <thermalfoundation:tool.hoe_steel>, <thermalfoundation:armor.helmet_bronze>,
+  <thermalfoundation:armor.plate_bronze>, <thermalfoundation:armor.legs_bronze>, <thermalfoundation:armor.boots_bronze>,
+  <thermalfoundation:tool.sword_bronze>, <thermalfoundation:tool.pickaxe_bronze>, <thermalfoundation:tool.axe_bronze>,
+  <thermalfoundation:tool.shovel_bronze>, <thermalfoundation:tool.hoe_bronze>, <thermalfoundation:material:24>
+] as IItemStack[];
+val AROutput = [
+  <actuallyadditions:item_helm_emerald>, <actuallyadditions:item_chest_emerald>, <actuallyadditions:item_pants_emerald>,
+  <actuallyadditions:item_boots_emerald>, <cyclicmagic:emerald_sword>, <cyclicmagic:emerald_pickaxe>,
+  <cyclicmagic:emerald_axe>, <cyclicmagic:emerald_spade>, <cyclicmagic:emerald_hoe>, <actuallyadditions:item_sword_emerald>,
+  <actuallyadditions:item_pickaxe_emerald>, <actuallyadditions:item_axe_emerald>, <actuallyadditions:item_shovel_emerald>,
+  <actuallyadditions:item_hoe_emerald>, <actuallyadditions:item_sword_obsidian>, <actuallyadditions:item_pickaxe_obsidian>,
+  <actuallyadditions:item_axe_obsidian>, <actuallyadditions:item_shovel_obsidian>, <actuallyadditions:item_hoe_obsidian>,
+  <actuallyadditions:item_helm_obsidian>, <actuallyadditions:item_chest_obsidian>, <actuallyadditions:item_pants_obsidian>,
+  <actuallyadditions:item_boots_obsidian>, <mekanismtools:steelhelmet>, <mekanismtools:steelchestplate>, <mekanismtools:steelleggings>,
+  <mekanismtools:steelboots>, <mekanismtools:steelsword>, <mekanismtools:steelpickaxe>, <mekanismtools:steelaxe>,
+  <mekanismtools:steelshovel>, <mekanismtools:steelhoe>, <mekanismtools:bronzehelmet>, <mekanismtools:bronzechestplate>,
+  <mekanismtools:bronzeleggings>, <mekanismtools:bronzeboots>, <mekanismtools:bronzesword>, <mekanismtools:bronzepickaxe>,
+  <mekanismtools:bronzeaxe>, <mekanismtools:bronzeshovel>, <mekanismtools:bronzehoe>, <hammercore:iron_gear>
+] as IItemStack[];
+for i, item in ARInput {
+  mods.actuallyadditions.AtomicReconstructor.addRecipe(AROutput[i], item, 1500);
+}
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<quantumstorage:trashcan>,
+  <extrautils2:trashcan>, 1000
+);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<quantumstorage:trashcanfluid>,
+  <extrautils2:trashcanfluid>, 1000
+);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<tp:stone_torch>,
+  <tconstruct:stone_torch>, 100
+);
 recipes.addShapedMirrored("ct_wooden_wrench", <chiselsandbits:wrench_wood>, [
   [null, <ore:plankWood>, null],
   [null, <ore:gearWood>, <ore:plankWood>],
   [<ore:stickWood>, null, null]
 ]);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_helm_emerald>,
-  <cyclicmagic:emerald_helmet>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_chest_emerald>,
-  <cyclicmagic:emerald_chestplate>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_pants_emerald>,
-  <cyclicmagic:emerald_leggings>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_boots_emerald>,
-  <cyclicmagic:emerald_boots>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<cyclicmagic:emerald_sword>,
-  <tp:emerald_sword>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<cyclicmagic:emerald_pickaxe>,
-  <tp:emerald_pickaxe>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<cyclicmagic:emerald_axe>,
-  <tp:emerald_axe>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<cyclicmagic:emerald_spade>,
-  <tp:emerald_spade>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<cyclicmagic:emerald_hoe>,
-  <tp:emerald_hoe>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_sword_emerald>,
-  <cyclicmagic:emerald_sword>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_pickaxe_emerald>,
-  <cyclicmagic:emerald_pickaxe>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_axe_emerald>,
-  <cyclicmagic:emerald_axe>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_shovel_emerald>,
-  <cyclicmagic:emerald_spade>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_hoe_emerald>,
-  <cyclicmagic:emerald_hoe>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_sword_obsidian>,
-  <tp:obsidian_sword>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_pickaxe_obsidian>,
-  <tp:obsidian_pickaxe>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_axe_obsidian>,
-  <tp:obsidian_axe>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_shovel_obsidian>,
-  <tp:obsidian_spade>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_hoe_obsidian>,
-  <tp:obsidian_hoe>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_helm_obsidian>,
-  <tp:obsidian_helmet>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_chest_obsidian>,
-  <tp:obsidian_chestplate>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_pants_obsidian>,
-  <tp:obsidian_leggings>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_boots_obsidian>,
-  <tp:obsidian_boots>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:steelhelmet>,
-  <thermalfoundation:armor.helmet_steel>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:steelchestplate>,
-  <thermalfoundation:armor.plate_steel>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:steelleggings>,
-  <thermalfoundation:armor.legs_steel>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:steelboots>,
-  <thermalfoundation:armor.boots_steel>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:steelsword>,
-  <thermalfoundation:tool.sword_steel>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:steelpickaxe>,
-  <thermalfoundation:tool.pickaxe_steel>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:steelaxe>,
-  <thermalfoundation:tool.axe_steel>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:steelshovel>,
-  <thermalfoundation:tool.shovel_steel>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:steelhoe>,
-  <thermalfoundation:tool.hoe_steel>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:bronzehelmet>,
-  <thermalfoundation:armor.helmet_bronze>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:bronzechestplate>,
-  <thermalfoundation:armor.plate_bronze>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:bronzeleggings>,
-  <thermalfoundation:armor.legs_bronze>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:bronzeboots>,
-  <thermalfoundation:armor.boots_bronze>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:bronzesword>,
-  <thermalfoundation:tool.sword_bronze>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:bronzepickaxe>,
-  <thermalfoundation:tool.pickaxe_bronze>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:bronzeaxe>,
-  <thermalfoundation:tool.axe_bronze>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:bronzeshovel>,
-  <thermalfoundation:tool.shovel_bronze>, 1500
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanismtools:bronzehoe>,
-  <thermalfoundation:tool.hoe_bronze>, 1500
-);
 recipes.addShaped("ct_futura_block", <chisel:futura>, [
   [<ore:bricksStone>, <ore:bricksStone>, <ore:bricksStone>],
   [<ore:bricksStone>, <ore:dustRedstone>, <ore:bricksStone>],
   [<ore:bricksStone>, <ore:bricksStone>, <ore:bricksStone>]
+]);
+recipes.addShaped("ct_diamond_wand", <betterbuilderswands:wanddiamond>, [
+  [null, null, <ore:gemDiamond>],
+  [null, <ore:stickWood>, null],
+  [<ore:stickWood>, null, null]
+]);
+recipes.addShaped("ct_iron_wand", <betterbuilderswands:wandiron>, [
+  [null, null, <ore:ingotIron>],
+  [null, <ore:stickWood>, null],
+  [<ore:stickWood>, null, null]
+]);
+recipes.addShaped("ct_diamond_spear", <tp:diamond_spear>, [
+  [<ore:gemDiamond>, null, null],
+  [null, <ore:stickWood>, null],
+  [null, null, <ore:stickWood>]
+]);
+recipes.addShaped("ct_iron_spear", <tp:iron_spear>, [
+  [<ore:ingotIron>, null, null],
+  [null, <ore:stickWood>, null],
+  [null, null, <ore:stickWood>]
 ]);
 
 //Adds recipe for cobweb
@@ -216,8 +132,44 @@ recipes.addShaped("ct_end_portal_frame", <minecraft:end_portal_frame>, [
   [<ore:endstone>, <ore:endstone>, <ore:endstone>]
 ]);
 
-//Adds alternate recipes to TP cobble gen, allows clay buckets
-recipes.remove(<tp:cobblegen_block>);
+//Deep dark portal nerf
+recipes.remove(<extrautils2:teleporter:1>);
+recipes.addShaped("ct_deep_dark_portal", <extrautils2:teleporter:1>, [
+  [<ore:compressed4xCobblestone>, <ore:compressed5xCobblestone>, <ore:compressed4xCobblestone>],
+  [<ore:compressed5xCobblestone>, <appliedenergistics2:material:47>, <ore:compressed5xCobblestone>],
+  [<ore:compressed4xCobblestone>, <ore:compressed5xCobblestone>, <ore:compressed4xCobblestone>]
+]);
+
+//Watering can upgrades
+recipes.remove(<extrautils2:wateringcan:*>);
+recipes.remove(<thermalcultivation:watering_can>);
+recipes.addShapedMirrored("ct_xu2_wateringcan", <extrautils2:wateringcan:1000>, [
+  [<ore:ingotIron>, null, null],
+  [<ore:ingotIron>, <minecraft:bucket>, <ore:ingotIron>],
+  [null, <ore:ingotIron>, null]
+]);
+recipes.addShapedMirrored("ct_tc_watering_can", <thermalcultivation:watering_can>, [
+  [<ore:ingotCopper>, null, null],
+  [<ore:ingotCopper>, <extrautils2:wateringcan:*>, <ore:ingotCopper>],
+  [null, <ore:ingotCopper>, null]
+]);
+
+//=====Tiny Progressions=====
+var TP = [
+  <tp:watering_can>, <tp:cobblegen_block>, <tp:apple_juice>, <tp:slime_juice>,
+  <tp:pumpkin_juice>, <tp:beet_juice>, <tp:potatoe_juice>, <tp:carrot_juice>,
+  <tp:wheat_juice>, <tp:cactus_juice>, <tp:melon_juice>
+] as IIngredient[];
+for item in TP {
+  recipes.remove(item);
+}
+#Watering can nerf
+recipes.addShapedMirrored("ct_tp_watering_can", <tp:watering_can>, [
+  [<ore:ingotSteel>, null, null],
+  [<ore:ingotSteel>, <extrautils2:wateringcan:*>, <ore:ingotSteel>],
+  [null, <ore:ingotSteel>, null]
+]);
+#Adds alternate recipes to cobble gen, allows clay buckets
 recipes.addShapedMirrored("ct_cobblegen_1", <tp:cobblegen_block>, [
   [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
   [<minecraft:lava_bucket>, <ore:blockGlass>, <minecraft:water_bucket>],
@@ -239,34 +191,86 @@ recipes.addShapedMirrored("ct_cobblegen_4", <tp:cobblegen_block>, [
   [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
 ]);
 
-//Cyclic uncrafting grinder nerf - I don't really want people to use this tbh
-recipes.remove(<cyclicmagic:uncrafting_block>);
-//See recipe in fusion crafting
+//=====Mystical Agriculture=====
+var MyAg = [
+  <mysticalagriculture:infusion_crystal>, <mysticalagriculture:master_infusion_crystal>, <mysticalagriculture:soulium_dagger>,
+  <mysticalagriculture:watering_can:0>, <mysticalagriculture:watering_can:1>, <mysticalagriculture:watering_can:2>,
+  <mysticalagriculture:watering_can:3>, <mysticalagriculture:watering_can:4>
+] as IIngredient[];
+for item in MyAg {
+  recipes.remove(item);
+}
+recipes.addShaped("ct_infusion_crystal", <mysticalagriculture:infusion_crystal>, [
+  [<ore:ingotBaseEssence>, <ore:essenceInferium>, <ore:ingotBaseEssence>],
+  [<ore:essenceInferium>, <ore:gemDiamond>, <ore:essenceInferium>],
+  [<ore:ingotBaseEssence>, <ore:essenceInferium>, <ore:ingotBaseEssence>]
+]);
+recipes.addShaped("ct_master_infusion_crystal", <mysticalagriculture:master_infusion_crystal>, [
+  [<ore:ingotBaseEssence>, <ore:essenceSupremium>, <ore:ingotBaseEssence>],
+  [<ore:essenceSupremium>, <minecraft:nether_star>, <ore:essenceSupremium>],
+  [<ore:ingotBaseEssence>, <ore:essenceSupremium>, <ore:ingotBaseEssence>]
+]);
+#Correct the position of the dagger recipe
+recipes.addShaped("ct_soulium_dagger", <mysticalagriculture:soulium_dagger>, [
+  [<ore:ingotSoulium>],
+  [<ore:ingotSoulium>],
+  [<mysticalagriculture:crafting:22>]
+]);
+#Progressive watering can recipes
+recipes.addShapedMirrored("ct_inferium_watering_can", <mysticalagriculture:watering_can:0>, [
+  [<ore:ingotInferium>, <mysticalagriculture:crafting:50>, null],
+  [<mysticalagriculture:crafting:48>, <extrautils2:wateringcan:*>, <ore:ingotInferium>],
+  [<ore:ingotInferium>, <ore:ingotInferium>, <ore:ingotInferium>]
+]);
+recipes.addShapedMirrored("ct_prudentium_watering_can", <mysticalagriculture:watering_can:1>, [
+  [<ore:ingotPrudentium>, <mysticalagriculture:crafting:51>, null],
+  [<mysticalagriculture:crafting:48>, <mysticalagriculture:watering_can:0>, <ore:ingotPrudentium>],
+  [<ore:ingotPrudentium>, <ore:ingotPrudentium>, <ore:ingotPrudentium>]
+]);
+recipes.addShapedMirrored("ct_intermedium_watering_can", <mysticalagriculture:watering_can:2>, [
+  [<ore:ingotIntermedium>, <mysticalagriculture:crafting:52>, null],
+  [<mysticalagriculture:crafting:48>, <mysticalagriculture:watering_can:1>, <ore:ingotIntermedium>],
+  [<ore:ingotIntermedium>, <ore:ingotIntermedium>, <ore:ingotIntermedium>]
+]);
+recipes.addShapedMirrored("ct_superium_watering_can", <mysticalagriculture:watering_can:3>, [
+  [<ore:ingotSuperium>, <mysticalagriculture:crafting:53>, null],
+  [<mysticalagriculture:crafting:48>, <mysticalagriculture:watering_can:2>, <ore:ingotSuperium>],
+  [<ore:ingotSuperium>, <ore:ingotSuperium>, <ore:ingotSuperium>]
+]);
+recipes.addShapedMirrored("ct_supremium_watering_can", <mysticalagriculture:watering_can:4>, [
+  [<ore:ingotSupremium>, <mysticalagriculture:crafting:54>, null],
+  [<mysticalagriculture:crafting:48>, <mysticalagriculture:watering_can:3>, <ore:ingotSupremium>],
+  [<ore:ingotSupremium>, <ore:ingotSupremium>, <ore:ingotSupremium>]
+]);
 
-//Watering can nerf + upgrades
-recipes.remove(<extrautils2:wateringcan:*>);
-recipes.remove(<thermalcultivation:watering_can>);
-recipes.remove(<tp:watering_can>);
-recipes.addShapedMirrored("ct_xu2_wateringcan", <extrautils2:wateringcan:1000>, [
-  [<ore:ingotIron>, null, null],
-  [<ore:ingotIron>, <minecraft:bucket>, <ore:ingotIron>],
-  [null, <ore:ingotIron>, null]
+//=====Quantum Storage=====
+recipes.remove(<quantumstorage:quantum_storage_unit>);
+recipes.remove(<quantumstorage:quantum_tank>);
+recipes.remove(<quantumstorage:quantum_barrel>);
+recipes.addShaped("ct_quantum_storage_unit", <quantumstorage:quantum_storage_unit>, [
+  [<ore:blockRefinedObsidian>, <quantumstorage:chest_diamond>, <ore:blockRefinedObsidian>],
+  [<quantumstorage:chest_diamond>, <appliedenergistics2:material:47>, <quantumstorage:chest_diamond>],
+  [<ore:blockRefinedObsidian>, <quantumstorage:chest_diamond>, <ore:blockRefinedObsidian>]
 ]);
-recipes.addShapedMirrored("ct_tc_watering_can", <thermalcultivation:watering_can>, [
-  [<ore:ingotCopper>, null, null],
-  [<ore:ingotCopper>, <extrautils2:wateringcan:*>, <ore:ingotCopper>],
-  [null, <ore:ingotCopper>, null]
+recipes.addShaped("ct_quantum_tank", <quantumstorage:quantum_tank>, [
+  [<ore:blockRefinedObsidian>, <extrautils2:drum:2>, <ore:blockRefinedObsidian>],
+  [<extrautils2:drum:2>, <appliedenergistics2:material:47>, <extrautils2:drum:2>],
+  [<ore:blockRefinedObsidian>, <extrautils2:drum:2>, <ore:blockRefinedObsidian>]
 ]);
-recipes.addShapedMirrored("ct_tp_watering_can", <tp:watering_can>, [
-  [<ore:ingotSteel>, null, null],
-  [<ore:ingotSteel>, <extrautils2:wateringcan:*>, <ore:ingotSteel>],
-  [null, <ore:ingotSteel>, null]
+recipes.addShaped("ct_quantum_barrel", <quantumstorage:quantum_barrel>, [
+  [<ore:blockRefinedObsidian>, <enderutilities:barrel>, <ore:blockRefinedObsidian>],
+  [<enderutilities:barrel>, <appliedenergistics2:material:47>, <enderutilities:barrel>],
+  [<ore:blockRefinedObsidian>, <enderutilities:barrel>, <ore:blockRefinedObsidian>]
 ]);
 
 //=====Ex Nihilo Creatio=====
-recipes.remove(<exnihilocreatio:item_mesh:2>);
-recipes.remove(<exnihilocreatio:item_mesh:3>);
-recipes.remove(<exnihilocreatio:item_mesh:4>);
+var ExNihilo = [
+  <exnihilocreatio:item_mesh:2>, <exnihilocreatio:item_mesh:3>, <exnihilocreatio:item_mesh:4>,
+  <exnihilocreatio:block_crucible_wood>
+] as IIngredient[];
+for item in ExNihilo {
+  recipes.remove(item);
+}
 recipes.addShaped("ct_flint_mesh", <exnihilocreatio:item_mesh:2>, [
   [<ore:string>, <minecraft:flint>, <ore:string>],
   [<minecraft:flint>, <exnihilocreatio:item_mesh:1>, <minecraft:flint>],
@@ -281,6 +285,33 @@ recipes.addShaped("ct_diamond_mesh", <exnihilocreatio:item_mesh:4>, [
   [<ore:string>, <ore:gemDiamond>, <ore:string>],
   [<ore:gemDiamond>, <exnihilocreatio:item_mesh:1>, <ore:gemDiamond>],
   [<ore:string>, <ore:gemDiamond>, <ore:string>]
+]);
+recipes.addShaped("ct_wooden_crucible", <exnihilocreatio:block_crucible_wood>, [
+  [<ore:logWood>, null, <ore:logWood>],
+  [<ore:logWood>, null, <ore:logWood>],
+  [<ore:logWood>, <ore:plankWood>, <ore:logWood>]
+]);
+
+//=====Ex Compressum=====
+recipes.remove(<excompressum:auto_hammer>);
+recipes.addShaped("ct_auto_hammer", <excompressum:auto_hammer>, [
+  [<ore:ingotIron>, <minecraft:heavy_weighted_pressure_plate>, <ore:ingotIron>],
+  [<ore:ingotIron>, <exnihilocreatio:hammer_diamond>, <ore:ingotIron>],
+  [<ore:ingotIron>, <minecraft:heavy_weighted_pressure_plate>, <ore:ingotIron>]
+]);
+recipes.addShaped("ct_auto_compressed_hammer", <excompressum:auto_compressed_hammer>, [
+  [<ore:ingotSteel>, <minecraft:heavy_weighted_pressure_plate>, <ore:ingotSteel>],
+  [<ore:ingotSteel>, <excompressum:compressed_hammer_diamond>, <ore:ingotSteel>],
+  [<ore:ingotSteel>, <minecraft:heavy_weighted_pressure_plate>, <ore:ingotSteel>]
+]);
+recipes.addShapeless("ct_polar_bear_bait", <excompressum:bait:10>, [
+  <ore:listAllfishraw>, <minecraft:snowball>
+]);
+recipes.addShapeless("ct_llama_bait", <excompressum:bait:11>, [
+  <minecraft:wheat>, <minecraft:sugar>
+]);
+recipes.addShapeless("ct_parrot_bait", <excompressum:bait:12>, [
+  <ore:dyeRed>, <ore:dyeGreen>
 ]);
 
 //=====RFTools=====
@@ -305,13 +336,14 @@ recipes.addShaped("ct_dimension_builder", <rftoolsdim:dimension_builder>, [
 ]);
 
 //=====AE2=====
-recipes.remove(<appliedenergistics2:energy_acceptor>);
-recipes.remove(<appliedenergistics2:charger>);
-recipes.remove(<appliedenergistics2:inscriber>);
-recipes.remove(<appliedenergistics2:drive>);
-recipes.remove(<appliedenergistics2:chest>);
-recipes.remove(<appliedenergistics2:condenser>);
-recipes.remove(<appliedenergistics2:quartz_growth_accelerator>);
+var AE2 = [
+  <appliedenergistics2:energy_acceptor>, <appliedenergistics2:charger>, <appliedenergistics2:inscriber>,
+  <appliedenergistics2:drive>, <appliedenergistics2:chest>, <appliedenergistics2:condenser>,
+  <appliedenergistics2:quartz_growth_accelerator>
+] as IIngredient[];
+for item in AE2 {
+  recipes.remove(item);
+}
 recipes.addShaped("ct_energy_acceptor", <appliedenergistics2:energy_acceptor>, [
   [<ore:ingotSteel>, <appliedenergistics2:quartz_glass>, <ore:ingotSteel>],
   [<appliedenergistics2:quartz_glass>, <appliedenergistics2:fluix_block>, <appliedenergistics2:quartz_glass>],
@@ -371,19 +403,16 @@ recipes.addShapedMirrored("ct_acceleration_wand", <notenoughwands:acceleration_w
 ]);
 
 //=====Draconic Evolution=====
-recipes.remove(<draconicevolution:grinder>);
-recipes.remove(<draconicevolution:dislocator>);
-recipes.remove(<draconicevolution:draconium_capacitor:1>);
-recipes.remove(<draconicevolution:energy_storage_core>);
-recipes.remove(<draconicevolution:wyvern_helm>);
-recipes.remove(<draconicevolution:wyvern_chest>);
-recipes.remove(<draconicevolution:wyvern_legs>);
-recipes.remove(<draconicevolution:wyvern_boots>);
-recipes.remove(<draconicevolution:wyvern_sword>);
-recipes.remove(<draconicevolution:wyvern_pick>);
-recipes.remove(<draconicevolution:wyvern_axe>);
-recipes.remove(<draconicevolution:wyvern_shovel>);
-recipes.remove(<draconicevolution:wyvern_bow>);
+var DE = [
+  <draconicevolution:grinder>, <draconicevolution:dislocator>, <draconicevolution:draconium_capacitor:1>,
+  <draconicevolution:energy_storage_core>, <draconicevolution:wyvern_helm>, <draconicevolution:wyvern_chest>,
+  <draconicevolution:wyvern_legs>, <draconicevolution:wyvern_boots>, <draconicevolution:wyvern_sword>,
+  <draconicevolution:wyvern_pick>, <draconicevolution:wyvern_axe>, <draconicevolution:wyvern_shovel>,
+  <draconicevolution:wyvern_bow>
+] as IIngredient[];
+for item in DE {
+  recipes.remove(item);
+}
 recipes.addShaped("ct_draconic_spawner", <draconicevolution:draconic_spawner>, [
   [null, <actuallyadditions:item_misc:20>, null],
   [<actuallyadditions:item_misc:20>, <draconicevolution:draconic_core>, <actuallyadditions:item_misc:20>],
