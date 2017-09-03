@@ -156,9 +156,7 @@ recipes.addShapedMirrored("ct_tc_watering_can", <thermalcultivation:watering_can
 
 //=====Tiny Progressions=====
 var TP = [
-  <tp:watering_can>, <tp:cobblegen_block>, <tp:apple_juice>, <tp:slime_juice>,
-  <tp:pumpkin_juice>, <tp:beet_juice>, <tp:potatoe_juice>, <tp:carrot_juice>,
-  <tp:wheat_juice>, <tp:cactus_juice>, <tp:melon_juice>
+  <tp:watering_can>, <tp:cobblegen_block>
 ] as IIngredient[];
 for item in TP {
   recipes.remove(item);
