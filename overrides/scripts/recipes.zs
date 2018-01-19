@@ -348,19 +348,19 @@ recipes.addShaped("ct_dimension_builder", <rftoolsdim:dimension_builder>, [
 ]);
 
 //=====Thermal Expansion=====
-recipes.addShapeless("ct_hardened_portable_tank_upgrade", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 4 as byte}), [
+recipes.addShapeless("ct_hardened_portable_tank_upgrade", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 1 as byte}), [
   <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 0 as byte}), <thermalfoundation:upgrade:0>
 ]);
-recipes.addShapeless("ct_reinforced_portable_tank_upgrade", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 4 as byte}), [
+recipes.addShapeless("ct_reinforced_portable_tank_upgrade", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 2 as byte}), [
   <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 1 as byte}), <thermalfoundation:upgrade:1>
 ]);
-recipes.addShapeless("ct_reinforced_portable_tank_conversion_0", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 3 as byte}), [
+recipes.addShapeless("ct_reinforced_portable_tank_conversion_0", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 2 as byte}), [
   <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 0 as byte}), <thermalfoundation:upgrade:33>
 ]);
-recipes.addShapeless("ct_reinforced_portable_tank_conversion_1", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 3 as byte}), [
+recipes.addShapeless("ct_reinforced_portable_tank_conversion_1", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 2 as byte}), [
   <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 1 as byte}), <thermalfoundation:upgrade:33>
 ]);
-recipes.addShapeless("ct_signalum_portable_tank_upgrade", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 4 as byte}), [
+recipes.addShapeless("ct_signalum_portable_tank_upgrade", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 3 as byte}), [
   <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 2 as byte}), <thermalfoundation:upgrade:2>
 ]);
 recipes.addShapeless("ct_signalum_portable_tank_conversion_0", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 3 as byte}), [
