@@ -1,6 +1,6 @@
 {
-    "images":{  
-        "title":{  
+    "images":{
+        "title":{
             "image":"mainmenu:logo.png",
             "posX":-160,
             "posY":60,
@@ -9,44 +9,44 @@
             "alignment":"top_center"
         }
     },
-    "buttons":{  
-        "singleplayer":{  
+    "buttons":{
+        "singleplayer":{
             "text":"menu.singleplayer",
             "posX":-100,
             "posY":48,
             "width":98,
             "height":20,
             "texture":"mainmenu:buttons/shortbutton.png",
-            "action":{  
+            "action":{
                 "type":"openGui",
                 "gui":"singleplayer"
             }
         },
-        "multiplayer":{  
+        "multiplayer":{
             "text":"menu.multiplayer",
             "posX":2,
             "posY":48,
             "width":98,
             "height":20,
             "texture":"mainmenu:buttons/shortbutton.png",
-            "action":{  
+            "action":{
                 "type":"openGui",
                 "gui":"multiplayer"
             }
         },
-        "mods":{  
+        "mods":{
             "text":"Mods",
             "posX":-100,
             "posY":72,
             "width":200,
             "height":20,
             "texture":"mainmenu:buttons/longbutton.png",
-            "action":{  
+            "action":{
                 "type":"openGui",
                 "gui":"mods"
             }
         },
-        "Twitch":{  
+        "Twitch":{
             "text":"Twitch",
             "posX":-100,
             "posY":96,
@@ -54,12 +54,12 @@
             "height":20,
             "tooltip":"Jacky's Twitch Channel",
             "texture":"mainmenu:buttons/shortbutton.png",
-            "action":{  
+            "action":{
                 "type":"openLink",
-                "link":"https://www.twitch.tv/jacky1356400/"
+                "link":"https://www.twitch.tv/jackyy"
             }
         },
-        "Twitter":{  
+        "Twitter":{
             "text":"Twitter",
             "posX":2,
             "posY":96,
@@ -67,35 +67,50 @@
             "height":20,
             "tooltip":"Jacky's Twitter",
             "texture":"mainmenu:buttons/shortbutton.png",
-            "action":{  
+            "action":{
                 "type":"openLink",
-                "link":"https://twitter.com/Jacky1356400/"
+                "link":"https://twitter.com/JackyyTV"
             }
         },
-        "options":{  
+        "options":{
             "text":"menu.options",
             "posX":-100,
             "posY":132,
             "width":98,
             "height":20,
             "texture":"mainmenu:buttons/shortbutton.png",
-            "action":{  
+            "action":{
                 "type":"openGui",
                 "gui":"options"
             }
         },
-        "quit":{  
+        "quit":{
             "text":"menu.quit",
             "posX":2,
             "posY":132,
             "width":98,
             "height":20,
             "texture":"mainmenu:buttons/shortbutton.png",
-            "action":{  
+            "action":{
                 "type":"quit"
             }
         },
-        "language":{  
+        "Bugs":{
+            "text":" ",
+            "posX":104,
+            "posY":48,
+            "width":20,
+            "height":20,
+            "imageWidth":"40",
+            "imageHeight":"40",
+            "texture":"mainmenu:buttons/Bug.png",
+            "tooltip":"Bug Reports",
+            "action":{
+                "type":"openLink",
+                "link":"https://github.com/JackyyTV/LiteIsland/issues"
+            }
+        },
+        "language":{
             "text":" ",
             "posX":104,
             "posY":72,
@@ -105,12 +120,12 @@
             "imageHeight":"40",
             "texture":"mainmenu:buttons/Language.png",
             "tooltip":"Language",
-            "action":{  
+            "action":{
                 "type":"openGui",
                 "gui":"languages"
             }
         },
-        "refresh":{  
+        "refresh":{
             "text":" ",
             "posX":104,
             "posY":96,
@@ -120,45 +135,45 @@
             "imageHeight":"40",
             "texture":"mainmenu:buttons/Refresh.png",
             "tooltip":"Refresh GUI",
-            "action":{  
+            "action":{
                 "type":"refresh"
             }
         }
     },
-    "labels":{  
-        "packversion":{  
+    "labels":{
+        "packversion":{
             "text":"Lite Island",
             "posX":-55,
             "posY":-20,
             "alignment":"bottom_right"
         },
-        "packauthor":{  
-            "text":"Made by Jacky1356400",
-            "posX":-117,
+        "packauthor":{
+            "text":"Made by Jackyy",
+            "posX":-81,
             "posY":-10,
             "alignment":"bottom_right"
         },
-        "mcversion":{  
+        "mcversion":{
             "text":"Minecraft #mcversion#",
             "posX":3,
             "posY":-30,
             "alignment":"bottom_left"
         },
-        "forge":{  
+        "forge":{
             "text":"Forge #forgeversion#",
             "posX":3,
             "posY":-20,
             "alignment":"bottom_left"
         },
-        "mods":{  
+        "mods":{
             "text":"#modsloaded# Mods Loaded, #modsactive# Mods Active",
             "posX":3,
             "posY":-10,
             "alignment":"bottom_left"
         }
     },
-    "other":{  
-        "panorama":{  
+    "other":{
+        "panorama":{
             "images":"mainmenu:panorama/panorama_%c.png",
             "animate":true,
             "animationSpeed":1,

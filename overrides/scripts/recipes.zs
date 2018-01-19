@@ -42,7 +42,8 @@ val ToBeRemoved = [
   <tp:stone_torch>, <chisel:futura>, <excompressum:compressed_block:1>, <excompressum:compressed_block:2>,
   <excompressum:compressed_block:3>, <excompressum:compressed_block:4>, <excompressum:compressed_block:5>,
   <excompressum:compressed_block:9>, <excompressum:iron_mesh>, <hammercore:iron_gear>, <cyclicmagic:uncrafting_block>,
-  <betterbuilderswands:wanddiamond>, <betterbuilderswands:wandiron>, <tp:diamond_spear>, <tp:iron_spear>
+  <betterbuilderswands:wanddiamond>, <betterbuilderswands:wandiron>, <tp:diamond_spear>, <tp:iron_spear>,
+  <twilightforest:uncrafting_table>
 ] as IIngredient[];
 for item in ToBeRemoved {
   recipes.remove(item);
@@ -130,6 +131,11 @@ recipes.addShaped("ct_end_portal_frame", <minecraft:end_portal_frame>, [
   [<ore:endstone>, <minecraft:ender_eye>, <ore:endstone>],
   [<ore:endstone>, <ore:ingotDraconium>, <ore:endstone>],
   [<ore:endstone>, <ore:endstone>, <ore:endstone>]
+]);
+
+//Adds recipe for the guide book
+recipes.addShapeless("ct_guide_book", <enchiridion:book>.withTag({identifier: "lite_island_guide_book"}), [
+  <minecraft:book>, <ore:cobblestone>, <ore:dirt>
 ]);
 
 //Deep dark portal nerf
@@ -241,6 +247,25 @@ recipes.addShapedMirrored("ct_supremium_watering_can", <mysticalagriculture:wate
   [<ore:ingotSupremium>, <ore:ingotSupremium>, <ore:ingotSupremium>]
 ]);
 
+//=====Aroma1997's Dimensional World=====
+//Re-added recipes so that Enchiridion can grab the recipes
+recipes.remove(<aroma1997sdimension:portaligniter:*>);
+recipes.addShaped("ct_mining_multitool", <aroma1997sdimension:portaligniter>, [
+  [<ore:bricksStone>, <minecraft:iron_pickaxe>, <ore:bricksStone>],
+  [null, <minecraft:flint_and_steel>, null],
+  [null, <ore:stickWood>, null]
+]);
+recipes.remove(<aroma1997sdimension:dimensionchanger>);
+recipes.addShaped("ct_dimension_changer", <aroma1997sdimension:dimensionchanger>, [
+  [<ore:gemDiamond>, <minecraft:ender_eye>, <ore:gemDiamond>],
+  [<ore:enderpearl>, <aroma1997sdimension:portaligniter:*>, <ore:enderpearl>],
+  [<ore:gemDiamond>, <minecraft:ender_eye>, <ore:gemDiamond>]
+]);
+recipes.remove(<aroma1997sdimension:portalframe>);
+recipes.addShapeless("ct_portal_frame", <aroma1997sdimension:portalframe>, [
+  <aroma1997sdimension:portaligniter>, <ore:bricksStone>
+]);
+
 //=====Quantum Storage=====
 recipes.remove(<quantumstorage:quantum_storage_unit>);
 recipes.remove(<quantumstorage:quantum_tank>);
@@ -291,17 +316,6 @@ recipes.addShaped("ct_wooden_crucible", <exnihilocreatio:block_crucible_wood>, [
 ]);
 
 //=====Ex Compressum=====
-recipes.remove(<excompressum:auto_hammer>);
-recipes.addShaped("ct_auto_hammer", <excompressum:auto_hammer>, [
-  [<ore:ingotIron>, <minecraft:heavy_weighted_pressure_plate>, <ore:ingotIron>],
-  [<ore:ingotIron>, <exnihilocreatio:hammer_diamond>, <ore:ingotIron>],
-  [<ore:ingotIron>, <minecraft:heavy_weighted_pressure_plate>, <ore:ingotIron>]
-]);
-recipes.addShaped("ct_auto_compressed_hammer", <excompressum:auto_compressed_hammer>, [
-  [<ore:ingotSteel>, <minecraft:heavy_weighted_pressure_plate>, <ore:ingotSteel>],
-  [<ore:ingotSteel>, <excompressum:compressed_hammer_diamond>, <ore:ingotSteel>],
-  [<ore:ingotSteel>, <minecraft:heavy_weighted_pressure_plate>, <ore:ingotSteel>]
-]);
 recipes.addShapeless("ct_polar_bear_bait", <excompressum:bait:10>, [
   <ore:listAllfishraw>, <minecraft:snowball>
 ]);
@@ -331,6 +345,47 @@ recipes.addShaped("ct_dimension_builder", <rftoolsdim:dimension_builder>, [
   [<draconicevolution:dislocator_advanced>, <extrautils2:opinium:4>, <draconicevolution:dislocator_advanced>],
   [<actuallyadditions:block_crystal_empowered:2>, <rftools:machine_frame>, <actuallyadditions:block_crystal_empowered:2>],
   [<extrautils2:opinium:2>, <extrautils2:opinium:2>, <extrautils2:opinium:2>]
+]);
+
+//=====Thermal Expansion=====
+recipes.addShapeless("ct_hardened_portable_tank_upgrade", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 4 as byte}), [
+  <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 0 as byte}), <thermalfoundation:upgrade:0>
+]);
+recipes.addShapeless("ct_reinforced_portable_tank_upgrade", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 4 as byte}), [
+  <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 1 as byte}), <thermalfoundation:upgrade:1>
+]);
+recipes.addShapeless("ct_reinforced_portable_tank_conversion_0", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 3 as byte}), [
+  <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 0 as byte}), <thermalfoundation:upgrade:33>
+]);
+recipes.addShapeless("ct_reinforced_portable_tank_conversion_1", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 3 as byte}), [
+  <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 1 as byte}), <thermalfoundation:upgrade:33>
+]);
+recipes.addShapeless("ct_signalum_portable_tank_upgrade", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 4 as byte}), [
+  <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 2 as byte}), <thermalfoundation:upgrade:2>
+]);
+recipes.addShapeless("ct_signalum_portable_tank_conversion_0", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 3 as byte}), [
+  <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 0 as byte}), <thermalfoundation:upgrade:34>
+]);
+recipes.addShapeless("ct_signalum_portable_tank_conversion_1", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 3 as byte}), [
+  <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 1 as byte}), <thermalfoundation:upgrade:34>
+]);
+recipes.addShapeless("ct_signalum_portable_tank_conversion_2", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 3 as byte}), [
+  <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 2 as byte}), <thermalfoundation:upgrade:34>
+]);
+recipes.addShapeless("ct_resonant_portable_tank_upgrade", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 4 as byte}), [
+  <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 3 as byte}), <thermalfoundation:upgrade:3>
+]);
+recipes.addShapeless("ct_resonant_portable_tank_conversion_0", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 4 as byte}), [
+  <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 0 as byte}), <thermalfoundation:upgrade:35>
+]);
+recipes.addShapeless("ct_resonant_portable_tank_conversion_1", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 4 as byte}), [
+  <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 1 as byte}), <thermalfoundation:upgrade:35>
+]);
+recipes.addShapeless("ct_resonant_portable_tank_conversion_2", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 4 as byte}), [
+  <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 2 as byte}), <thermalfoundation:upgrade:35>
+]);
+recipes.addShapeless("ct_resonant_portable_tank_conversion_3", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 4 as byte}), [
+  <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 3 as byte}), <thermalfoundation:upgrade:35>
 ]);
 
 //=====AE2=====

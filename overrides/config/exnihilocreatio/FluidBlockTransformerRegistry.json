@@ -53,5 +53,16 @@
       "name": "tconstruct:slime_congealed",
       "meta": 0
     }
+  },
+  {
+    "fluidName": "lava",
+    "input": {
+      "name": "appliedenergistics2:material",
+      "meta": 45
+    },
+    "output": {
+      "name": "appliedenergistics2:sky_stone_block",
+      "meta": 0
+    }
   }
 ]

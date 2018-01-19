@@ -18,215 +18,26 @@
   },
   {
     "mode": "ADD",
-    "result": "extrautils2:passivegenerator,1,6",
-    "catalyst": "extrautils2:opinium,1,8",
+    "result": "mysticalagradditions:stuff,8,69",
+    "catalyst": "mysticalagradditions:storage",
     "energy": 1250000,
     "tier": 3,
     "ingredients": [
-      "extrautils2:passivegenerator,1,8",
-      "extrautils2:passivegenerator,1,8",
-      "extrautils2:passivegenerator,1,8",
-      "extrautils2:passivegenerator,1,8",
-      "extrautils2:passivegenerator,1,8",
-      "extrautils2:passivegenerator,1,8",
-      "extrautils2:passivegenerator,1,8",
-      "extrautils2:passivegenerator,1,8"
+      "avaritia:resource,1,5",
+      "avaritia:resource,1,5",
+      "avaritia:resource,1,5",
+      "avaritia:resource,1,5"
     ]
   },
   {
     "mode": "ADD",
-    "result": "extrautils2:spike_creative",
-    "catalyst": "extrautils2:spike_diamond",
-    "energy": 1250000,
+    "result": "botania:manatablet,1,0,{mana:500000,creative:1b}",
+    "catalyst": "botania:manatablet,1,0",
+    "energy": 5000000,
     "tier": 3,
     "ingredients": [
-      "draconicevolution:draconic_staff_of_power",
-      "draconicevolution:draconic_staff_of_power",
-      "draconicevolution:grinder",
-      "draconicevolution:grinder",
-      "draconicevolution:grinder",
-      "draconicevolution:grinder"
-    ]
-  },
-  {
-    "mode": "ADD",
-    "result": "extrautils2:drum,1,4",
-    "catalyst": "extrautils2:opinium,1,8",
-    "energy": 1250000,
-    "tier": 3,
-    "ingredients": [
-      "extrautils2:drum,1,3",
-      "extrautils2:drum,1,3",
-      "extrautils2:drum,1,3",
-      "extrautils2:drum,1,3",
-      "extrautils2:drum,1,3",
-      "extrautils2:drum,1,3",
-      "extrautils2:drum,1,3",
-      "extrautils2:drum,1,3"
-    ]
-  },
-  {
-    "mode": "ADD",
-    "result": "mekanism:gastank,1,0,{tier:4,mekData:{}}",
-    "catalyst": "extrautils2:opinium,1,8",
-    "energy": 1250000,
-    "tier": 3,
-    "ingredients": [
-      "mekanism:gastank,1,0,{tier:3,mekData:{}}",
-      "mekanism:gastank,1,0,{tier:3,mekData:{}}",
-      "mekanism:gastank,1,0,{tier:3,mekData:{}}",
-      "mekanism:gastank,1,0,{tier:3,mekData:{}}",
-      "mekanism:gastank,1,0,{tier:3,mekData:{}}",
-      "mekanism:gastank,1,0,{tier:3,mekData:{}}",
-      "mekanism:gastank,1,0,{tier:3,mekData:{}}",
-      "mekanism:gastank,1,0,{tier:3,mekData:{}}"
-    ]
-  },
-  {
-    "mode": "ADD",
-    "result": "thermalexpansion:cell,1,0,{Recv:25000,RSControl:0b,Creative:1b,Energy:50000000,Level:4b,Send:25000}",
-    "catalyst": "extrautils2:opinium,1,8",
-    "energy": 1250000,
-    "tier": 3,
-    "ingredients": [
-      "thermalexpansion:upgrade,1,35",
-      "thermalexpansion:upgrade,1,35",
-      "thermalexpansion:upgrade,1,35",
-      "thermalexpansion:upgrade,1,35",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core"
-    ]
-  },
-  {
-    "mode": "ADD",
-    "result": "psi:cad_assembly,1,5",
-    "catalyst": "psi:cad_assembly,1,2",
-    "energy": 500000,
-    "tier": 3,
-    "ingredients": [
-      "psi:cad_assembly,1,3",
-      "psi:cad_assembly,1,3",
-      "psi:cad_assembly,1,4",
-      "psi:cad_assembly,1,4",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core"
-    ]
-  },
-  {
-    "mode": "ADD",
-    "result": "tconstruct:materials,1,50",
-    "catalyst": "minecraft:skull,1,1",
-    "energy": 250000,
-    "tier": 3,
-    "ingredients": [
-      "tinkersaddons:modifier_item,1,1",
-      "tinkersaddons:modifier_item,1,2",
-      "tinkersaddons:modifier_item,1,3",
-      "tinkersaddons:modifier_item,1,4"
-    ]
-  },
-  {
-    "mode": "ADD",
-    "result": "draconicevolution:creative_rf_source",
-    "catalyst": "draconicevolution:energy_storage_core",
-    "energy": 1250000,
-    "tier": 3,
-    "ingredients": [
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core"
-    ]
-  },
-  {
-    "mode": "ADD",
-    "result": "mekanism:energycube,1,0,{tier:4,mekData:{energyStored:1.7976931348623157E308d}}",
-    "catalyst": "mekanism:energycube,1,0,{tier:3,mekData:{}}",
-    "energy": 1250000,
-    "tier": 3,
-    "ingredients": [
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core"
-    ]
-  },
-  {
-    "mode": "ADD",
-    "result": "appliedenergistics2:creative_energy_cell",
-    "catalyst": "appliedenergistics2:dense_energy_cell",
-    "energy": 1250000,
-    "tier": 3,
-    "ingredients": [
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core"
-    ]
-  },
-  {
-    "mode": "ADD",
-    "result": "extrautils2:creativeenergy",
-    "catalyst": "extrautils2:rainbowgenerator",
-    "energy": 1250000,
-    "tier": 3,
-    "ingredients": [
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core"
-    ]
-  },
-  {
-    "mode": "ADD",
-    "result": "immersiveengineering:metal_device0,1,3",
-    "catalyst": "immersiveengineering:metal_device0,1,2",
-    "energy": 1250000,
-    "tier": 3,
-    "ingredients": [
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core"
-    ]
-  },
-  {
-    "mode": "ADD",
-    "result": "rftools:powercell_creative",
-    "catalyst": "rftools:powercell_advanced",
-    "energy": 1250000,
-    "tier": 3,
-    "ingredients": [
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "extrautils2:opinium,1,8",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core",
-      "draconicevolution:chaotic_core"
+      "botania:pool,1,1",
+      "botania:pool,1,1"
     ]
   },
   {
@@ -236,30 +47,19 @@
     "energy": 5000000,
     "tier": 3,
     "ingredients": [
+      "draconicevolution:creative_rf_source",
       "draconicevolution:creative_rf_source"
     ]
   },
   {
     "mode": "ADD",
-    "result": "thermalexpansion:capacitor,1,32000,{Energy:25000000}",
-    "catalyst": "thermalexpansion:capacitor,1,4",
+    "result": "thermalexpansion:reservoir,1,32000",
+    "catalyst": "thermalexpansion:reservoir,1,4",
     "energy": 5000000,
     "tier": 3,
     "ingredients": [
-      "thermalexpansion:cell,1,0,{Recv:25000,RSControl:0b,Creative:1b,Energy:50000000,Level:4b,Send:25000}"
-    ]
-  },
-  {
-    "mode": "ADD",
-    "result": "thermalcultivation:watering_can,1,32000,{Water:60000,Mode:4}",
-    "catalyst": "thermalcultivation:watering_can,1,4",
-    "energy": 750000,
-    "tier": 3,
-    "ingredients": [
-      "mysticalagriculture:watering_can,1,4",
-      "tp:watering_can_upgrade",
-      "actuallyadditions:item_growth_ring",
-      "draconicevolution:chaotic_core"
+      "thermalexpansion:tank,1,0,{RSControl:0b,Creative:1b,Level:4b}",
+      "thermalexpansion:tank,1,0,{RSControl:0b,Creative:1b,Level:4b}"
     ]
   }
 ]

@@ -1,0 +1,4613 @@
+{
+  "modid": "",
+  "uniqueName": "lite_island_guide_book",
+  "saveName": "lite_island_guide_book",
+  "displayName": "Lite Island Guide Book",
+  "displayInfo": "The ultimate guide for Lite Island.",
+  "colorHex": "FF00EB08",
+  "language": "en_us",
+  "hasCustomIcon": true,
+  "showBackground": true,
+  "legacyTexture": false,
+  "backgroundResource": "enchiridion:textures/books/rustic2.png",
+  "BACKGROUND_START_X": -10,
+  "BACKGROUND_START_Y": -10,
+  "BACKGROUND_END_X": 440,
+  "BACKGROUND_END_Y": 240,
+  "defaultPage": 0,
+  "isLocked": true,
+  "forgetPageOnClose": false,
+  "book": [
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 18,
+          "yPos": 22,
+          "width": 189.0,
+          "height": 27.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/logo.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 21,
+          "yPos": 59,
+          "width": 183.0,
+          "height": 135.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Welcome to Lite Island! This is a 1.12 lightweight Skyblock pack based on Ex Nihilo Creatio. \n\nUnlike other usual kitchen sink Skyblock packs (e.g. Sky Factory, All The Sky, etc.), this pack includes lots of different recipe tweaks, including recipes for creative items, making the pack even more challenging. This pack is not intended to be an \"expert\" pack, while certain things are made to be slightly more difficult, extending the playtime a bit more.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 232,
+          "yPos": 25,
+          "width": 177.0,
+          "height": 161.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "This guide book will guide you through playing the whole pack, from the start till the end.\n\nIf you are new to Modded Minecraft, this book will help you a lot.\n\nAlright, let\u0027s get started!\n\nTurn to the next page and start the journey.\n\nNote: This guide only include the very basics of things, look up in-game manuals or search online if you need to know further.\n\nHave fun!\n- Jacky",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        }
+      ],
+      "pageNumber": 0,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 24,
+          "yPos": 17,
+          "width": 177.0,
+          "height": 105.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Getting Started\n\nThe first thing you do in Minecraft - punch some trees! You should have given 8 Oak Saplings as one of the starting items. Depending on the world type you\u0027ve chosen, planting saplings might be optional, but if you need to plant the saplings, you can twerk / sprint to accelerate tree growth!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 67,
+          "yPos": 116,
+          "width": 85.0,
+          "height": 88.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/tree_twerk.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 228,
+          "yPos": 21,
+          "width": 182.0,
+          "height": 41.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "After you\u0027ve got some wood, it\u0027s better to get the basics of Tinkers\u0027 Construct. Craft the following items and place them together!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 227,
+          "yPos": 62,
+          "width": 86.0,
+          "height": 43.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapelessRecipes",
+              "itemString": "tconstruct:tooltables 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 319,
+          "yPos": 64,
+          "width": 81.0,
+          "height": 40.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "tconstruct:tooltables 3",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 318,
+          "yPos": 110,
+          "width": 83.0,
+          "height": 41.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "tconstruct:tooltables 1 {textureBlock:{id:\"minecraft:planks\",Count:1b,Damage:0s}}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 227,
+          "yPos": 109,
+          "width": 86.0,
+          "height": 43.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "tconstruct:tooltables 2 {textureBlock:{id:\"minecraft:log\",Count:1b,Damage:0s}}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 226,
+          "yPos": 156,
+          "width": 87.0,
+          "height": 43.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "tconstruct:tooltables 4",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 319,
+          "yPos": 155,
+          "width": 84.0,
+          "height": 42.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "tconstruct:pattern 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        }
+      ],
+      "pageNumber": 1,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 19,
+          "yPos": 18,
+          "width": 182.0,
+          "height": 182.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "After you\u0027ve got the basics of Tinkers\u0027 Construct, time to work on getting resources!\n\nAgain, depending on the world type, resources are being gathered in many different ways. If you\u0027re using Garden of Glass, you can shift right click Grass Blocks / Dirt for Pebbles, then you can craft them into Cobblestone! If you\u0027re on a regular Skyblock world (i.e. world type is \"Void World\"), things are a bit more difficult. First, you\u0027ll need a Crook. Break Leaves with the Crook to get Silkworms. Right click on leaves with Silkworms to infest them. Then use a Crook on the fully infested leaves to get String.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 229,
+          "yPos": 20,
+          "width": 180.0,
+          "height": 95.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "You\u0027ll need to make some Barrels and compost some Dirt, then sieve the Dirt in Sieves. There are two types of Sieves, regular ones and heavy ones. Regular ones can form a multiblock up to 5x5 as to increase the sieve efficiency. Heavy ones are made to sieve compressed blocks, you get more drops at once, but they cannot form a multiblock.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 231,
+          "yPos": 111,
+          "width": 80.0,
+          "height": 40.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "exnihilocreatio:crook_wood 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 319,
+          "yPos": 111,
+          "width": 82.0,
+          "height": 41.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "exnihilocreatio:block_barrel0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 231,
+          "yPos": 157,
+          "width": 82.0,
+          "height": 41.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedRecipes",
+              "itemString": "exnihilocreatio:block_sieve",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 319,
+          "yPos": 157,
+          "width": 83.0,
+          "height": 41.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "excompressum:heavy_sieve 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        }
+      ],
+      "pageNumber": 2,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 20,
+          "yPos": 18,
+          "width": 179.0,
+          "height": 51.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "You\u0027ll also need meshes to put into the sieves. Keep in mind that different meshes drops different items from the same block. Check JEI for what they drops!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 20,
+          "yPos": 75,
+          "width": 93.0,
+          "height": 46.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedRecipes",
+              "itemString": "exnihilocreatio:item_mesh 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 112,
+          "yPos": 76,
+          "width": 94.0,
+          "height": 47.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "exnihilocreatio:item_mesh 2",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 20,
+          "yPos": 133,
+          "width": 94.0,
+          "height": 47.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "exnihilocreatio:item_mesh 3",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 112,
+          "yPos": 133,
+          "width": 96.0,
+          "height": 48.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "exnihilocreatio:item_mesh 4",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 226,
+          "yPos": 22,
+          "width": 183.0,
+          "height": 82.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "After you\u0027ve got these set up, you\u0027re able to sieve your dirt to get Pebbles and craft them into Cobblestone!\n\nCraft a Hammer to smash your Cobblestone into Gravel, Sand or Dust. Sieve them and get the resources you need!\n\nCompressed Hammers are handy if you want to smash some compressed blocks down!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 226,
+          "yPos": 149,
+          "width": 86.0,
+          "height": 43.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "exnihilocreatio:hammer_stone 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 317,
+          "yPos": 149,
+          "width": 86.0,
+          "height": 43.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "excompressum:compressed_hammer_stone 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        }
+      ],
+      "pageNumber": 3,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 19,
+          "yPos": 21,
+          "width": 182.0,
+          "height": 112.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "If you want a constant supply of Cobblestone, it might be a great idea to make a Cobblestone generator! But to get that, you\u0027ll need Lava. Make an Unfired Crucible, smelt it down, put it on top of a heat source (check usage for Crucible on JEI to see possible heat sources), put some Cobblestone into the Crucible and wait, you\u0027ll get Lava! You can either make a Bucket out of Iron or Clay, depends on what you want!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 20,
+          "yPos": 128,
+          "width": 70.0,
+          "height": 35.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "exnihilocreatio:block_crucible 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 20,
+          "yPos": 165,
+          "width": 70.0,
+          "height": 35.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "ceramics:clay_bucket_block",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 96,
+          "yPos": 139,
+          "width": 49.0,
+          "height": 53.900000000000006,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "exnihilocreatio:block_crucible:0",
+              "recipeType": "VanillaFurnace",
+              "itemString": "exnihilocreatio:block_crucible 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 151,
+          "yPos": 139,
+          "width": 50.0,
+          "height": 55.00000000000001,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "ceramics:clay_bucket_block:0",
+              "recipeType": "VanillaFurnace",
+              "itemString": "ceramics:clay_bucket 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 260,
+          "yPos": 12,
+          "width": 118.0,
+          "height": 192.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/crucible.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        }
+      ],
+      "pageNumber": 4,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 22,
+          "yPos": 16,
+          "width": 174.0,
+          "height": 111.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "In order to get Water for an infinite Water source, or making Clay, you can either place down some Barrels and wait for rain, or make a Wooden Crucible.\n\nA Wooden Crucible takes items like Sapling, and turn them into Water. Unlike the regular Crucible, you don\u0027t need a heat source for Wooden Crucibles. Just place it down and it\u0027ll work.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 40,
+          "yPos": 130,
+          "width": 129.0,
+          "height": 64.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "excompressum:wooden_crucible 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 229,
+          "yPos": 20,
+          "width": 181.0,
+          "height": 183.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/wooden_crucible.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        }
+      ],
+      "pageNumber": 5,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 18,
+          "yPos": 17,
+          "width": 182.0,
+          "height": 50.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "There are 2 types of Cobblestone generators, the traditional one and a single block from Tiny Progressions. Just go for whatever you want!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 36,
+          "yPos": 62,
+          "width": 138.0,
+          "height": 79.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/cobblegen.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 51,
+          "yPos": 142,
+          "width": 113.0,
+          "height": 56.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "tp:cobblegen_block",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 227,
+          "yPos": 20,
+          "width": 180.0,
+          "height": 56.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "At this point, you\u0027re pretty good on the resources, it\u0027s probably time to make a Smeltery. A Smeltery is a multiblock structure that allows you to double ores and make metal Tinkers\u0027 tool parts.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 236,
+          "yPos": 77,
+          "width": 78.0,
+          "height": 39.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedRecipes",
+              "itemString": "tconstruct:smeltery_controller 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 284,
+          "yPos": 119,
+          "width": 65.0,
+          "height": 32.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedRecipes",
+              "itemString": "tconstruct:smeltery_io 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 224,
+          "yPos": 121,
+          "width": 58.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedRecipes",
+              "itemString": "tconstruct:faucet 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 353,
+          "yPos": 120,
+          "width": 67.0,
+          "height": 33.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "tconstruct:seared_tank 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 235,
+          "yPos": 157,
+          "width": 80.0,
+          "height": 40.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedRecipes",
+              "itemString": "tconstruct:casting 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 328,
+          "yPos": 78,
+          "width": 77.0,
+          "height": 38.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedRecipes",
+              "itemString": "tconstruct:casting 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
+        },
+        {
+          "xPos": 326,
+          "yPos": 157,
+          "width": 82.0,
+          "height": 41.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedRecipes",
+              "itemString": "tconstruct:seared 3",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 12
+        }
+      ],
+      "pageNumber": 6,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 19,
+          "yPos": 28,
+          "width": 184.0,
+          "height": 96.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/smeltery.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 23,
+          "yPos": 18,
+          "width": 190.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "A basic 5x5 Smeltery.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 22,
+          "yPos": 138,
+          "width": 179.0,
+          "height": 48.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "If you don\u0027t want to do a Smeltery, there\u0027s also a Melter, it\u0027s a smaller version of Smeltery. A Melter doesn\u0027t double ores, only 1.5x, plus it doesn\u0027t create alloys.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 236,
+          "yPos": 9,
+          "width": 160.0,
+          "height": 80.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "tcomplement:melter 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 233,
+          "yPos": 106,
+          "width": 169.0,
+          "height": 91.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/melter.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 234,
+          "yPos": 95,
+          "width": 81.0,
+          "height": 11.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "A Melter setup.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        }
+      ],
+      "pageNumber": 7,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 19,
+          "yPos": 15,
+          "width": 189.0,
+          "height": 146.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "A better way of getting resources\n\nTired of constantly sieving? There\u0027s actually a Mining Dimension for getting ores and some other resources.\n\nMining Dimension is an all-purpose superflat dimension made for mining, farming, etc. It is an easy way of gathering resources for things like Extreme Reactors and other tech mods.\n\nIn order to go to the Mining Dimension, first of all, you\u0027ll need a Mining Multitool:",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 64,
+          "yPos": 152,
+          "width": 94.0,
+          "height": 47.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "aroma1997sdimension:portaligniter 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 229,
+          "yPos": 16,
+          "width": 169.0,
+          "height": 11.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Then craft some Portal Frames:",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 253,
+          "yPos": 29,
+          "width": 122.0,
+          "height": 61.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapelessOreRecipe",
+              "itemString": "aroma1997sdimension:portalframe",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 229,
+          "yPos": 94,
+          "width": 183.0,
+          "height": 46.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Creating a Mining Dimension portal is relatively simple, just build it like how you build a Nether portal, then right click the inner portal frame with the Mining Multitool.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 238,
+          "yPos": 139,
+          "width": 67.0,
+          "height": 67.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/mining_dim_portal_unlit.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 315,
+          "yPos": 139,
+          "width": 74.0,
+          "height": 67.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/mining_dim_portal_lit.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        }
+      ],
+      "pageNumber": 8,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 19,
+          "yPos": 16,
+          "width": 178.0,
+          "height": 28.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Hold sneak and walk through the portal, and you\u0027ll be in the Mining Dimension:",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 20,
+          "yPos": 43,
+          "width": 184.0,
+          "height": 106.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/mining_dim.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 20,
+          "yPos": 152,
+          "width": 180.0,
+          "height": 44.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "You can also find AE2 meteors and slime islands in the Mining Dimension. Chance Cubes and Lucky Bean trees also spawn in there, so good luck!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 228,
+          "yPos": 18,
+          "width": 185.0,
+          "height": 83.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Alternatively, there\u0027s also another mining dimension called Deep Dark. It\u0027s a dimension without sky light, very dark, but ores generation are much denser in there. Mobs health doubles in the Deep Dark, players also takes damage in the darkness. It\u0027s a dangerous, yet rewarding dimension.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 232,
+          "yPos": 105,
+          "width": 160.0,
+          "height": 80.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "extrautils2:teleporter 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        }
+      ],
+      "pageNumber": 9,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 21,
+          "yPos": 11,
+          "width": 184.0,
+          "height": 86.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Power generation\n\nThere are multiple ways of generating power, as known as Redstone Flux (RF). This guide book will only include a few of the basic power generators. If you want to know further, discover them yourself.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 20,
+          "yPos": 96,
+          "width": 179.0,
+          "height": 59.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Magmatic Generator / Dynamo\n\nThis type of generators runs on Lava, you\u0027ll have to constantly feed them with Lava in order for them to generate power.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 19,
+          "yPos": 151,
+          "width": 90.0,
+          "height": 45.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "extrautils2:machine 0 {Type:\"extrautils2:generator_lava\"}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 115,
+          "yPos": 151,
+          "width": 91.0,
+          "height": 45.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedRecipes",
+              "itemString": "thermalexpansion:dynamo 1 {RSControl:0b,Facing:1b,Energy:0,Level:0b}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 227,
+          "yPos": 17,
+          "width": 184.0,
+          "height": 56.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Furnace fuels / Coal-based Generators\n\nThis type of generators runs on any Furnace fuels or Coal.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 232,
+          "yPos": 65,
+          "width": 77.0,
+          "height": 38.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "extrautils2:machine 0 {Type:\"extrautils2:generator_survival\"}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 317,
+          "yPos": 65,
+          "width": 74.0,
+          "height": 37.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "draconicevolution:generator",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 233,
+          "yPos": 109,
+          "width": 75.0,
+          "height": 37.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapelessOreRecipe",
+              "itemString": "integrateddynamics:coal_generator 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 316,
+          "yPos": 108,
+          "width": 78.0,
+          "height": 39.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "mekanismgenerators:generator 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 233,
+          "yPos": 151,
+          "width": 75.0,
+          "height": 37.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedRecipes",
+              "itemString": "actuallyadditions:block_coal_generator",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
+        },
+        {
+          "xPos": 316,
+          "yPos": 153,
+          "width": 76.0,
+          "height": 38.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedRecipes",
+              "itemString": "rftools:coalgenerator",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 12
+        }
+      ],
+      "pageNumber": 10,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 19,
+          "yPos": 17,
+          "width": 185.0,
+          "height": 82.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Renewable power generators\n\nThis type of power generators don\u0027t consume anything to generate power. They rely on the environment (e.g. Sun, Wind, Water, etc.) to generate power. While they can be efficient, there are limitations with certain generators (like solar panels) can only generate power at certain time (in solar panels\u0027 case, only day time).",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 23,
+          "yPos": 136,
+          "width": 87.0,
+          "height": 43.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "mekanismgenerators:generator 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 116,
+          "yPos": 135,
+          "width": 87.0,
+          "height": 43.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "solarfluxreborn:solar0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 230,
+          "yPos": 23,
+          "width": 89.0,
+          "height": 44.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "mekanismgenerators:generator 6",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 324,
+          "yPos": 23,
+          "width": 89.0,
+          "height": 44.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "immersiveengineering:wooden_device1 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 324,
+          "yPos": 84,
+          "width": 88.0,
+          "height": 44.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "immersiveengineering:wooden_device1 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 226,
+          "yPos": 80,
+          "width": 96.0,
+          "height": 62.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "For how to set up the generators in Immersive Engineering, please check out the Engineer\u0027s Manual for details.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 322,
+          "yPos": 142,
+          "width": 90.0,
+          "height": 45.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "immersiveengineering:metal_device1 3",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        }
+      ],
+      "pageNumber": 11,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 19,
+          "yPos": 17,
+          "width": 184.0,
+          "height": 122.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Reactors\n\nReactors are a type of powerful, yet expensive generators. They\u0027re multiblock structures, requires fuel and coolants.\n\nA basic Reactor consists Reactor Casings (as frame at least), Reactor Glass (optional), Reactor Controller, Reactor Access Port(s), Reactor Fuel Rod(s), Reactor Control Rod(s), Reactor Power Tap(s) and a minimum exterior size of 3x3x3.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 18,
+          "yPos": 148,
+          "width": 90.0,
+          "height": 45.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "bigreactors:reactorcontroller 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 112,
+          "yPos": 147,
+          "width": 93.0,
+          "height": 46.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "bigreactors:reactorcasing 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 227,
+          "yPos": 87,
+          "width": 89.0,
+          "height": 44.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedRecipes",
+              "itemString": "bigreactors:reactoraccessport 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 325,
+          "yPos": 30,
+          "width": 90.0,
+          "height": 45.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "bigreactors:reactorfuelrod 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 226,
+          "yPos": 31,
+          "width": 94.0,
+          "height": 47.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "bigreactors:reactorcontrolrod 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 325,
+          "yPos": 87,
+          "width": 88.0,
+          "height": 44.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedRecipes",
+              "itemString": "bigreactors:reactorpowertaprf 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 242,
+          "yPos": 160,
+          "width": 155.0,
+          "height": 22.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "To see how to build a 3x3x3 reactor, go to the next page.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        }
+      ],
+      "pageNumber": 12,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 49,
+          "yPos": 11,
+          "width": 116.0,
+          "height": 93.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/reactor_layer_1.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 49,
+          "yPos": 104,
+          "width": 116.0,
+          "height": 96.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/reactor_layer_2.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 263,
+          "yPos": 9,
+          "width": 110.0,
+          "height": 96.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/reactor_layer_3.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 263,
+          "yPos": 105,
+          "width": 110.0,
+          "height": 99.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/reactor_formed.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        }
+      ],
+      "pageNumber": 13,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 19,
+          "yPos": 16,
+          "width": 180.0,
+          "height": 163.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Storage System\n\nAre you getting fed up with having loads of chests and don\u0027t know where to find the items you need? Well, AE2 is the solution.\n\nAE2 (or full name as Applied Energistics 2), is a mod that allows you to create massive storage systems, autocrafting and has many unlimited potentials!\n\nTo get started with AE2, you\u0027ll need some Certus Quartz and some Charged Certus Quartz, either from sieving or mining (check JEI to see details).",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 78,
+          "yPos": 177,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "appliedenergistics2:material 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 107,
+          "yPos": 177,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "appliedenergistics2:material 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 227,
+          "yPos": 21,
+          "width": 185.0,
+          "height": 38.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "After you\u0027ve got them, you\u0027ll need to make an Energy Acceptor. This block converts RF (or other energy units) into AE, the energy unit used in AE2. ",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 259,
+          "yPos": 58,
+          "width": 111.0,
+          "height": 55.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "appliedenergistics2:energy_acceptor",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 225,
+          "yPos": 122,
+          "width": 189.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Since Charged Certus Quartz are much rarer than regular Certus Quartz, it\u0027s better to have a Charger.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 260,
+          "yPos": 150,
+          "width": 106.0,
+          "height": 53.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "appliedenergistics2:charger",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        }
+      ],
+      "pageNumber": 14,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 18,
+          "yPos": 17,
+          "width": 184.0,
+          "height": 183.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Next thing you\u0027ll need is an Inscriber, which is a machine needed to create processors.\n\nProcessors are one of the key components in most of the AE2 recipes.\n\nTo create processors, you\u0027ll also need presses. There are 4 different types of press: Logic, Engineering, Calculation and Silicon. You can either create presses via Mystical Agriculture (it\u0027s quite straight forward, look up on JEI and you\u0027ll understand pretty much most of it) or find the presses in meteors.  Meteors can be found in the Overworld (not void world) and Mining Dimension.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 230,
+          "yPos": 27,
+          "width": 32.0,
+          "height": 32.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "appliedenergistics2:material 22",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 275,
+          "yPos": 27,
+          "width": 32.0,
+          "height": 32.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "appliedenergistics2:material 24",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 317,
+          "yPos": 27,
+          "width": 32.0,
+          "height": 32.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "appliedenergistics2:material 23",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 230,
+          "yPos": 18,
+          "width": 186.0,
+          "height": 13.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "All of the processors and presses.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 361,
+          "yPos": 63,
+          "width": 34.0,
+          "height": 34.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "appliedenergistics2:material 19",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 233,
+          "yPos": 63,
+          "width": 32.0,
+          "height": 32.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "appliedenergistics2:material 15",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 276,
+          "yPos": 63,
+          "width": 33.0,
+          "height": 33.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "appliedenergistics2:material 14",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 319,
+          "yPos": 63,
+          "width": 33.0,
+          "height": 33.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "appliedenergistics2:material 13",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 227,
+          "yPos": 97,
+          "width": 182.0,
+          "height": 99.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "ME Drive is one of the important parts for an AE / ME system. Make sure it\u0027s attached to the AE network, either place it next to the Energy Acceptor or connect the drive and the acceptor via ME cables. ME Drive has 10 internal slots for Storage Cells. Note that any storage cells can only store up to 63 item types per cell regardless their size.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
+        }
+      ],
+      "pageNumber": 15,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 50,
+          "yPos": 30,
+          "width": 115.0,
+          "height": 57.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "appliedenergistics2:drive",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 40,
+          "yPos": 110,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "appliedenergistics2:storage_cell_1k",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 80,
+          "yPos": 110,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "appliedenergistics2:storage_cell_4k",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 120,
+          "yPos": 110,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "appliedenergistics2:storage_cell_16k",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 160,
+          "yPos": 110,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "appliedenergistics2:storage_cell_64k",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 226,
+          "yPos": 22,
+          "width": 185.0,
+          "height": 75.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "In order to store / withdraw items into the Storage Cells, you\u0027ll need a ME Terminal. There\u0027s also an upgraded version of the ME Terminal called ME Crafting Terminal, which includes a 3x3 crafting grid, allows you to craft items directly using the items stored in the network.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 262,
+          "yPos": 96,
+          "width": 101.0,
+          "height": 50.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapelessOreRecipe",
+              "itemString": "appliedenergistics2:part 380",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 262,
+          "yPos": 148,
+          "width": 101.0,
+          "height": 50.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapelessOreRecipe",
+              "itemString": "appliedenergistics2:part 360",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 40,
+          "yPos": 145,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "extracells:storage.physical 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 80,
+          "yPos": 145,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "extracells:storage.physical 1 {upgrades:{},config:{}}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
+        },
+        {
+          "xPos": 120,
+          "yPos": 145,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "extracells:storage.physical 2",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 12
+        },
+        {
+          "xPos": 160,
+          "yPos": 145,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "extracells:storage.physical 3",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 13
+        }
+      ],
+      "pageNumber": 16,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 19,
+          "yPos": 19,
+          "width": 182.0,
+          "height": 20.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Here\u0027s an example of a basic AE / ME system:",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 25,
+          "yPos": 39,
+          "width": 174.0,
+          "height": 157.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/ae2_system.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 229,
+          "yPos": 22,
+          "width": 180.0,
+          "height": 37.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Introduction to Channels\n\nYou may have noticed this appears on top of the screen:",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 229,
+          "yPos": 60,
+          "width": 153.0,
+          "height": 59.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/ae2_channel.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 226,
+          "yPos": 122,
+          "width": 181.0,
+          "height": 84.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "So what exactly are Channels?\n\nChannels are part of AE2, each parts (except Charger, Inscriber and Crystal Growth Accelerator / Chamber) occupies a Channel. Energy Acceptor can only output 8 Channels, which is not enough for a massive system...",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        }
+      ],
+      "pageNumber": 17,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 18,
+          "yPos": 18,
+          "width": 186.0,
+          "height": 92.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "This is when ME Controller comes in handy. ME controller is an upgraded version of Energy Acceptor and it can form a multiblock frame (up to 7x7x7). ME Controller can output 32 Channels per side. Keep in mind that Glass, Covered and Smart Cables can only transfer 8 Channels, you\u0027ll need Dense Cables in order to trasfer all 32 Channels.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 41,
+          "yPos": 116,
+          "width": 143.0,
+          "height": 71.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapedOreRecipe",
+              "itemString": "appliedenergistics2:controller",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 231,
+          "yPos": 27,
+          "width": 89.0,
+          "height": 44.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapelessOreRecipe",
+              "itemString": "appliedenergistics2:part 16",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 231,
+          "yPos": 84,
+          "width": 92.0,
+          "height": 46.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "recipeType": "ShapelessOreRecipe",
+              "itemString": "appliedenergistics2:part 36",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 230,
+          "yPos": 141,
+          "width": 95.0,
+          "height": 47.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "recipeType": "ShapelessOreRecipe",
+              "itemString": "appliedenergistics2:part 56",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 325,
+          "yPos": 60,
+          "width": 91.0,
+          "height": 45.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+              "recipeType": "ShapelessOreRecipe",
+              "itemString": "appliedenergistics2:part 516",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 325,
+          "yPos": 115,
+          "width": 93.0,
+          "height": 46.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "recipeType": "ShapelessOreRecipe",
+              "itemString": "appliedenergistics2:part 76",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        }
+      ],
+      "pageNumber": 18,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 18,
+          "yPos": 18,
+          "width": 185.0,
+          "height": 178.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Exploration\n\nThere\u0027s actually not just the vanilla dimenions and mining dimensions. This pack provides 2 more dimenions for you to explore. They are: The Lost Cities and The Twilight Forest.\n\nThe Lost Cities\n\nThe Lost Cities is a dimension that\u0027s full of abandoned structures. There can be loads of loots inside those structures, but also full of danger.\n\nTo construct a portal to The Lost Cities is very simple but also quite expensive, you need 6 Skulls (any types), 2 Diamond Blocks and a Bed of any colors.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 228,
+          "yPos": 27,
+          "width": 182.0,
+          "height": 125.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/lost_cities_portal.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 229,
+          "yPos": 157,
+          "width": 183.0,
+          "height": 36.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Also, do note that you\u0027ll need an extra portal to come back if you don\u0027t want to use /home or /spawn.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        }
+      ],
+      "pageNumber": 19,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 22,
+          "yPos": 28,
+          "width": 181.0,
+          "height": 31.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "After you\u0027ve constructed the portal, right click on the Bed and it should bring you to The Lost Cities...",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 22,
+          "yPos": 73,
+          "width": 181.0,
+          "height": 99.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/lost_cities.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 227,
+          "yPos": 22,
+          "width": 183.0,
+          "height": 168.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "The Twilight Forest\n\nAs for The Twlight Forest, the portal is unique compare to The Lost Cities.\n\nYou need: at least 2 Buckets of Water, at least 8 vanilla Flowers of any types, at least 8 pieces of Dirt / Grass Blocks and a piece of Diamond.\n\nTo start constructing the portal, you need to have a 2x2 infinite Water source surrounded by Dirt or Grass Blocks with the Flowers on top (corner blocks are completely optional).",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        }
+      ],
+      "pageNumber": 20,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 39,
+          "yPos": 15,
+          "width": 136.0,
+          "height": 86.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/twilight_forest_portal_1.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 39,
+          "yPos": 107,
+          "width": 137.0,
+          "height": 91.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/twilight_forest_portal_2.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 231,
+          "yPos": 23,
+          "width": 182.0,
+          "height": 47.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "After the portal is constructed. throw a piece of Diamond into the pool of Water. You should see a lightning strike and the portal is formed!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 236,
+          "yPos": 75,
+          "width": 160.0,
+          "height": 108.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/twilight_forest_portal_3.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        }
+      ],
+      "pageNumber": 21,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 18,
+          "yPos": 18,
+          "width": 182.0,
+          "height": 21.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Jump into the portal and it\u0027ll bring you to The Twilight Forest!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 21,
+          "yPos": 41,
+          "width": 180.0,
+          "height": 99.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/lite_island_guide_book/twilight_forest.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 20,
+          "yPos": 143,
+          "width": 178.0,
+          "height": 38.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "The Twilight Forest unlocks different areas by Advancements, so, look at your Advancements and see how to unlock different areas!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 229,
+          "yPos": 24,
+          "width": 182.0,
+          "height": 41.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "By the way, if you want to go to The End, just make an End Cake, fill it with Eyes of Ender and right click on the cake!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 233,
+          "yPos": 70,
+          "width": 160.0,
+          "height": 80.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "recipeType": "ShapedRecipes",
+              "itemString": "dimensionaledibles:end_cake",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        }
+      ],
+      "pageNumber": 22,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 19,
+          "yPos": 19,
+          "width": 184.0,
+          "height": 177.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Late game to end game\n\nWhen you have lots of resources and have flight, consider yourself have entered the late game to end game stage!\n\nFirst thing you probably want to start in the late game stage is Draconic Evolution as you\u0027ll need the Fusion Crafting system to craft certain creative items.\n\nDraconic Evolution is a fairly straight forward mod as it\u0027s simple and has a guide book (Draconic Evolution Information Tablet). You\u0027ll want to check out the Tablet for things related to Fusion Crafting.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 227,
+          "yPos": 20,
+          "width": 184.0,
+          "height": 177.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Avaritia is another mod that you\u0027ll have to work on apart from Draconic Evolution as you\u0027ll need its Extreme Crafting Table for crafting creative items.\n\nTo start off, first craft an Extreme Crafting Table. It has a 9x9 crafting grid interface.\n\nSecondly, craft some Neutron Collectors and place them down. Neutron Collectors collects tiny piles of Neutrons. Do note that the collectors are rather slow, so you\u0027ll need quite a lot of them.\nTiny piles of Neutrons are used to craft Neutronium Ingots, which are used in quite a few Extreme Crafting recipes.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        }
+      ],
+      "pageNumber": 23,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 20,
+          "yPos": 15,
+          "width": 185.0,
+          "height": 22.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Here are all the creative items that you can craft (check JEI for recipes):",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 20,
+          "yPos": 45,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "exchangers:excreative 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 45,
+          "yPos": 45,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "botania:pool 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 70,
+          "yPos": 45,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "extrautils2:passivegenerator 6",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 95,
+          "yPos": 45,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "extrautils2:spike_creative",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 120,
+          "yPos": 45,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "extrautils2:drum 4",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 145,
+          "yPos": 45,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "mekanism:machineblock2 11 {tier:4,mekData:{}}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 170,
+          "yPos": 45,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "mekanism:gastank 0 {tier:4,mekData:{}}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 20,
+          "yPos": 75,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "psi:cad_assembly 5",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 45,
+          "yPos": 75,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "tconstruct:materials 50",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
+        },
+        {
+          "xPos": 70,
+          "yPos": 75,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "storagedrawers:upgrade_creative 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 12
+        },
+        {
+          "xPos": 95,
+          "yPos": 75,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "storagedrawers:upgrade_creative 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 13
+        },
+        {
+          "xPos": 120,
+          "yPos": 75,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "draconicevolution:creative_rf_source",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 14
+        },
+        {
+          "xPos": 145,
+          "yPos": 75,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "appliedenergistics2:creative_energy_cell",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 15
+        },
+        {
+          "xPos": 170,
+          "yPos": 75,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "thermalexpansion:tank 0 {RSControl:0b,Creative:1b,Level:4b}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 16
+        },
+        {
+          "xPos": 20,
+          "yPos": 105,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "thermalcultivation:watering_can 32000 {Water:60000,Mode:4}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 17
+        },
+        {
+          "xPos": 45,
+          "yPos": 105,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "botania:manatablet {mana:500000,creative:1b}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 18
+        },
+        {
+          "xPos": 70,
+          "yPos": 105,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "draconicevolution:draconium_capacitor 2 {Energy:1073741823}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 19
+        },
+        {
+          "xPos": 95,
+          "yPos": 105,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "thermalexpansion:reservoir 32000",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 20
+        },
+        {
+          "xPos": 20,
+          "yPos": 130,
+          "width": 179.0,
+          "height": 42.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "After you\u0027ve crafted all of the creative items listed above, consider yourself have beaten this pack!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 21
+        },
+        {
+          "xPos": 232,
+          "yPos": 101,
+          "width": 179.0,
+          "height": 22.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "That\u0027s all for this guide book, hope you enjoy this pack!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 22
+        }
+      ],
+      "pageNumber": 24,
+      "isScrollable": false
+    }
+  ],
+  "defaultIDs": [
+    "enchiridion_default_buttons"
+  ]
+}
