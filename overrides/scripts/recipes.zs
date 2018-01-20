@@ -119,18 +119,18 @@ recipes.addShaped("ct_iron_spear", <tp:iron_spear>, [
   [null, null, <ore:stickWood>]
 ]);
 
+//Adds recipe for Elytra
+recipes.addShaped("ct_elytra", <minecraft:elytra>, [
+  [null, <openblocks:hang_glider>, null],
+  [<xreliquary:angelic_feather>, <harvestcraft:hardenedleatherchestitem>, <xreliquary:angelic_feather>],
+  [null, <openblocks:hang_glider>, null]
+]);
+
 //Adds recipe for cobweb
 recipes.addShaped("ct_cobweb", <minecraft:web>, [
   [<mysticalagriculture:crafting:23>, null, <mysticalagriculture:crafting:23>],
   [null, <mysticalagriculture:crafting:23>, null],
   [<mysticalagriculture:crafting:23>, null, <mysticalagriculture:crafting:23>]
-]);
-
-//Adds recipe for end portal (this is temporary until I can get the new mod released)
-recipes.addShaped("ct_end_portal_frame", <minecraft:end_portal_frame>, [
-  [<ore:endstone>, <minecraft:ender_eye>, <ore:endstone>],
-  [<ore:endstone>, <ore:ingotDraconium>, <ore:endstone>],
-  [<ore:endstone>, <ore:endstone>, <ore:endstone>]
 ]);
 
 //Adds recipe for the guide book
@@ -197,9 +197,10 @@ recipes.addShapedMirrored("ct_cobblegen_4", <tp:cobblegen_block>, [
 
 //=====Mystical Agriculture=====
 var MyAg = [
-  <mysticalagriculture:infusion_crystal>, <mysticalagriculture:master_infusion_crystal>, <mysticalagriculture:soulium_dagger>,
-  <mysticalagriculture:watering_can:0>, <mysticalagriculture:watering_can:1>, <mysticalagriculture:watering_can:2>,
-  <mysticalagriculture:watering_can:3>, <mysticalagriculture:watering_can:4>
+  <mysticalagriculture:infusion_crystal>, <mysticalagriculture:master_infusion_crystal>,
+  <mysticalagriculture:watering_can:0>, <mysticalagriculture:watering_can:1>,
+  <mysticalagriculture:watering_can:2>, <mysticalagriculture:watering_can:3>,
+  <mysticalagriculture:watering_can:4>
 ] as IIngredient[];
 for item in MyAg {
   recipes.remove(item);
@@ -213,12 +214,6 @@ recipes.addShaped("ct_master_infusion_crystal", <mysticalagriculture:master_infu
   [<ore:ingotBaseEssence>, <ore:essenceSupremium>, <ore:ingotBaseEssence>],
   [<ore:essenceSupremium>, <minecraft:nether_star>, <ore:essenceSupremium>],
   [<ore:ingotBaseEssence>, <ore:essenceSupremium>, <ore:ingotBaseEssence>]
-]);
-#Correct the position of the dagger recipe
-recipes.addShaped("ct_soulium_dagger", <mysticalagriculture:soulium_dagger>, [
-  [<ore:ingotSoulium>],
-  [<ore:ingotSoulium>],
-  [<mysticalagriculture:crafting:22>]
 ]);
 #Progressive watering can recipes
 recipes.addShapedMirrored("ct_inferium_watering_can", <mysticalagriculture:watering_can:0>, [
@@ -245,6 +240,24 @@ recipes.addShapedMirrored("ct_supremium_watering_can", <mysticalagriculture:wate
   [<ore:ingotSupremium>, <mysticalagriculture:crafting:54>, null],
   [<mysticalagriculture:crafting:48>, <mysticalagriculture:watering_can:3>, <ore:ingotSupremium>],
   [<ore:ingotSupremium>, <ore:ingotSupremium>, <ore:ingotSupremium>]
+]);
+
+//=====Loot Bags=====
+recipes.addShaped("ct_uncommon_lootbag", <lootbags:itemlootbag:1>, [
+  [<lootbags:itemlootbag:0>, <lootbags:itemlootbag:0>],
+  [<lootbags:itemlootbag:0>, <lootbags:itemlootbag:0>]
+]);
+recipes.addShaped("ct_rare_lootbag", <lootbags:itemlootbag:2>, [
+  [<lootbags:itemlootbag:1>, <lootbags:itemlootbag:1>],
+  [<lootbags:itemlootbag:1>, <lootbags:itemlootbag:1>]
+]);
+recipes.addShaped("ct_epic_lootbag", <lootbags:itemlootbag:3>, [
+  [<lootbags:itemlootbag:2>, <lootbags:itemlootbag:2>],
+  [<lootbags:itemlootbag:2>, <lootbags:itemlootbag:2>]
+]);
+recipes.addShaped("ct_legendary_lootbag", <lootbags:itemlootbag:4>, [
+  [<lootbags:itemlootbag:3>, <lootbags:itemlootbag:3>],
+  [<lootbags:itemlootbag:3>, <lootbags:itemlootbag:3>]
 ]);
 
 //=====Aroma1997's Dimensional World=====
@@ -284,6 +297,29 @@ recipes.addShaped("ct_quantum_barrel", <quantumstorage:quantum_barrel>, [
   [<ore:blockRefinedObsidian>, <enderutilities:barrel>, <ore:blockRefinedObsidian>],
   [<enderutilities:barrel>, <appliedenergistics2:material:47>, <enderutilities:barrel>],
   [<ore:blockRefinedObsidian>, <enderutilities:barrel>, <ore:blockRefinedObsidian>]
+]);
+
+//=====Calculator=====
+var Calc = [
+  <calculator:atomicmultiplier>, <calculator:atomicmodule>, <calculator:atomicassembly>
+] as IIngredient[];
+for item in Calc {
+  recipes.remove(item);
+}
+recipes.addShaped("ct_atomic_multiplier", <calculator:atomicmultiplier>, [
+  [<calculator:calculatorplug>, <calculator:fabricationchamber>, <calculator:calculatorplug>],
+  [<calculator:atomicmodule>, <calculator:atomicassembly>, <calculator:atomicmodule>],
+  [<ore:ingotInfinity>, <calculator:flawlesscalculator>, <ore:ingotInfinity>]
+]);
+recipes.addShaped("ct_atomic_module", <calculator:atomicmodule> * 4, [
+  [<calculator:largetanzanite>, <calculator:calculatorassembly>, <calculator:largetanzanite>],
+  [<calculator:calculatorassembly>, <ore:alloyUltimate>, <calculator:calculatorassembly>],
+  [<calculator:largetanzanite>, <calculator:calculatorassembly>, <calculator:largetanzanite>]
+]);
+recipes.addShaped("ct_atomic_assembly", <calculator:atomicassembly>, [
+  [<calculator:advancedassembly>, <calculator:atomicmodule>, <calculator:advancedassembly>],
+  [<calculator:atomicmodule>, <actuallyadditions:item_crystal_empowered:4>, <calculator:atomicmodule>],
+  [<calculator:advancedassembly>, <calculator:atomicmodule>, <calculator:advancedassembly>]
 ]);
 
 //=====Ex Nihilo Creatio=====

@@ -11,8 +11,9 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Lite Island",
-  "version": "1.3",
-  "author": "jacky1356400",
+  "version": "1.3.1",
+  "author": "Jacky1356400",
+  "projectID": 274916,
   "files": [
     {
       "projectID": 228404,
@@ -96,7 +97,7 @@
     },
     {
       "projectID": 231095,
-      "fileID": 2506644,
+      "fileID": 2516302,
       "required": true
     },
     {
@@ -191,7 +192,7 @@
     },
     {
       "projectID": 274456,
-      "fileID": 2521008,
+      "fileID": 2482238,
       "required": true
     },
     {
@@ -491,17 +492,12 @@
     },
     {
       "projectID": 32274,
-      "fileID": 2498312,
+      "fileID": 2520372,
       "required": true
     },
     {
       "projectID": 238222,
-      "fileID": 2511052,
-      "required": true
-    },
-    {
-      "projectID": 247408,
-      "fileID": 2444884,
+      "fileID": 2520855,
       "required": true
     },
     {
@@ -536,7 +532,7 @@
     },
     {
       "projectID": 240630,
-      "fileID": 2497186,
+      "fileID": 2500678,
       "required": true
     },
     {
@@ -692,6 +688,26 @@
     {
       "projectID": 67504,
       "fileID": 2478952,
+      "required": true
+    },
+    {
+      "projectID": 247694,
+      "fileID": 2509851,
+      "required": true
+    },
+    {
+      "projectID": 225104,
+      "fileID": 2509148,
+      "required": true
+    },
+    {
+      "projectID": 283644,
+      "fileID": 2512449,
+      "required": true
+    },
+    {
+      "projectID": 271740,
+      "fileID": 2512453,
       "required": true
     }
   ],
