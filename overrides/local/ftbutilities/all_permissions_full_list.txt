@@ -1,4 +1,4 @@
-11318 nodes in total
+11383 nodes in total
 Modifying this file won't have any effect!
 
 block.tap: ALL
@@ -19,6 +19,7 @@ command.baubles: CMD
 command.bcore_ticktime: CMD
 command.bcore_util: CMD
 command.blockdata: CMD
+command.bonsaitrees: CMD
 command.botania-open: CMD
 command.botania-share: CMD
 command.botania-skyblock-spread: CMD
@@ -90,6 +91,7 @@ command.ftb.edit_config.AppliedEnergistics2\CustomRecipes: CMD
 command.ftb.edit_config.AppliedEnergistics2\Facades: CMD
 command.ftb.edit_config.AppliedEnergistics2\VersionChecker: CMD
 command.ftb.edit_config.AppliedEnergistics2\extracells: CMD
+command.ftb.edit_config.AvaritiaTweaks: CMD
 command.ftb.edit_config.ChanceCubes\chancecubes: CMD
 command.ftb.edit_config.ChickenChunks: CMD
 command.ftb.edit_config.DimensionalEdibles: CMD
@@ -98,7 +100,6 @@ command.ftb.edit_config.Extreme Reactors\Extreme Reactors: CMD
 command.ftb.edit_config.IntegrationForegoing: CMD
 command.ftb.edit_config.InvTweaks: CMD
 command.ftb.edit_config.Lootbags_BagConfig: CMD
-command.ftb.edit_config.MoreOverlays: CMD
 command.ftb.edit_config.MouseTweaks: CMD
 command.ftb.edit_config.NEI\client: CMD
 command.ftb.edit_config.QuantumStorage: CMD
@@ -113,10 +114,12 @@ command.ftb.edit_config.appleskin: CMD
 command.ftb.edit_config.aroma1997\aroma1997core: CMD
 command.ftb.edit_config.aroma1997\aroma1997sdimension: CMD
 command.ftb.edit_config.avaritia: CMD
+command.ftb.edit_config.badwithernocookie: CMD
 command.ftb.edit_config.baubles: CMD
 command.ftb.edit_config.betteradvancements\betteradvancements: CMD
 command.ftb.edit_config.betterbuilderswands: CMD
 command.ftb.edit_config.bibliocraft: CMD
+command.ftb.edit_config.bonsaitrees\settings: CMD
 command.ftb.edit_config.botania: CMD
 command.ftb.edit_config.brandon3055\BrandonsCore: CMD
 command.ftb.edit_config.brandon3055\DraconicEvolution: CMD
@@ -193,15 +196,22 @@ command.ftb.edit_config.lootbags: CMD
 command.ftb.edit_config.lostcities\general: CMD
 command.ftb.edit_config.lostcities\profile_ancient: CMD
 command.ftb.edit_config.lostcities\profile_atlantis: CMD
+command.ftb.edit_config.lostcities\profile_bio_wasteland: CMD
+command.ftb.edit_config.lostcities\profile_biosphere: CMD
+command.ftb.edit_config.lostcities\profile_cavern: CMD
 command.ftb.edit_config.lostcities\profile_chisel: CMD
 command.ftb.edit_config.lostcities\profile_default: CMD
+command.ftb.edit_config.lostcities\profile_floating: CMD
 command.ftb.edit_config.lostcities\profile_nodamage: CMD
 command.ftb.edit_config.lostcities\profile_onlycities: CMD
 command.ftb.edit_config.lostcities\profile_rarecities: CMD
 command.ftb.edit_config.lostcities\profile_realistic: CMD
 command.ftb.edit_config.lostcities\profile_safe: CMD
+command.ftb.edit_config.lostcities\profile_space: CMD
 command.ftb.edit_config.lostcities\profile_tallbuildings: CMD
 command.ftb.edit_config.lostcities\profile_wasteland: CMD
+command.ftb.edit_config.lostcities\profile_water_empty: CMD
+command.ftb.edit_config.lostcities\profile_waterbubbles: CMD
 command.ftb.edit_config.luckybeans: CMD
 command.ftb.edit_config.mcjtylib: CMD
 command.ftb.edit_config.mekanism: CMD
@@ -215,6 +225,7 @@ command.ftb.edit_config.openblocks: CMD
 command.ftb.edit_config.openglider: CMD
 command.ftb.edit_config.openmods: CMD
 command.ftb.edit_config.oreexcavation: CMD
+command.ftb.edit_config.placebo: CMD
 command.ftb.edit_config.plustic: CMD
 command.ftb.edit_config.psi: CMD
 command.ftb.edit_config.randomthings: CMD
@@ -311,6 +322,7 @@ command.lc_debug: CMD
 command.lc_exportbuilding: CMD
 command.lc_exportpart: CMD
 command.levelupTool: CMD
+command.listen: CMD
 command.locate: CMD
 command.luck: CMD
 command.me: CMD
@@ -570,6 +582,7 @@ ftbu.claims.block.edit.avaritia.double_compressed_crafting_table: OP
 ftbu.claims.block.edit.avaritia.extreme_crafting_table: OP
 ftbu.claims.block.edit.avaritia.neutron_collector: OP
 ftbu.claims.block.edit.avaritia.neutronium_compressor: OP
+ftbu.claims.block.edit.avaritiatweaks.gaia_block: OP
 ftbu.claims.block.edit.bibliocraft.armorstand: OP
 ftbu.claims.block.edit.bibliocraft.bell: OP
 ftbu.claims.block.edit.bibliocraft.bookcase: OP
@@ -635,6 +648,7 @@ ftbu.claims.block.edit.bigreactors.turbinepowertaptesla: OP
 ftbu.claims.block.edit.bigreactors.turbinerotorblade: OP
 ftbu.claims.block.edit.bigreactors.turbinerotorshaft: OP
 ftbu.claims.block.edit.bigreactors.yellorium: OP
+ftbu.claims.block.edit.bonsaitrees.bonsaipot: OP
 ftbu.claims.block.edit.botania.alchemycatalyst: OP
 ftbu.claims.block.edit.botania.alfheimportal: OP
 ftbu.claims.block.edit.botania.altar: OP
@@ -887,6 +901,7 @@ ftbu.claims.block.edit.calculator.atomicmultiplier: OP
 ftbu.claims.block.edit.calculator.basicgreenhouse: OP
 ftbu.claims.block.edit.calculator.calculatorlocator: OP
 ftbu.claims.block.edit.calculator.calculatorplug: OP
+ftbu.claims.block.edit.calculator.calculatorscreenblock: OP
 ftbu.claims.block.edit.calculator.co2generator: OP
 ftbu.claims.block.edit.calculator.conductormast: OP
 ftbu.claims.block.edit.calculator.conductormastblock: OP
@@ -1242,10 +1257,13 @@ ftbu.claims.block.edit.cookingforblockheads.sink: OP
 ftbu.claims.block.edit.cookingforblockheads.spice_rack: OP
 ftbu.claims.block.edit.cookingforblockheads.toaster: OP
 ftbu.claims.block.edit.cookingforblockheads.tool_rack: OP
+ftbu.claims.block.edit.cyclicmagic.apple: OP
 ftbu.claims.block.edit.cyclicmagic.auto_crafter: OP
 ftbu.claims.block.edit.cyclicmagic.beacon_potion: OP
 ftbu.claims.block.edit.cyclicmagic.beacon_redstone: OP
+ftbu.claims.block.edit.cyclicmagic.block_anvil: OP
 ftbu.claims.block.edit.cyclicmagic.block_disenchanter: OP
+ftbu.claims.block.edit.cyclicmagic.block_enchanter: OP
 ftbu.claims.block.edit.cyclicmagic.block_fishing: OP
 ftbu.claims.block.edit.cyclicmagic.block_forester: OP
 ftbu.claims.block.edit.cyclicmagic.block_fragile: OP
@@ -1316,15 +1334,18 @@ ftbu.claims.block.edit.cyclicmagic.wireless_transmitter: OP
 ftbu.claims.block.edit.cyclicmagic.xpjuice: OP
 ftbu.claims.block.edit.darkutils.anti_slime: OP
 ftbu.claims.block.edit.darkutils.ender_hopper: OP
+ftbu.claims.block.edit.darkutils.ender_pearl_hopper: OP
 ftbu.claims.block.edit.darkutils.ender_tether: OP
 ftbu.claims.block.edit.darkutils.fake_tnt: OP
 ftbu.claims.block.edit.darkutils.filter: OP
 ftbu.claims.block.edit.darkutils.filter_inverted: OP
 ftbu.claims.block.edit.darkutils.grate: OP
+ftbu.claims.block.edit.darkutils.monolith: OP
 ftbu.claims.block.edit.darkutils.pearl_block: OP
 ftbu.claims.block.edit.darkutils.slime_dyed: OP
 ftbu.claims.block.edit.darkutils.sneaky: OP
 ftbu.claims.block.edit.darkutils.sneaky_bedrock: OP
+ftbu.claims.block.edit.darkutils.sneaky_button: OP
 ftbu.claims.block.edit.darkutils.sneaky_ghost: OP
 ftbu.claims.block.edit.darkutils.sneaky_lever: OP
 ftbu.claims.block.edit.darkutils.sneaky_obsidian: OP
@@ -1554,8 +1575,10 @@ ftbu.claims.block.edit.exnihilocreatio.block_dust: OP
 ftbu.claims.block.edit.exnihilocreatio.block_endstone_crushed: OP
 ftbu.claims.block.edit.exnihilocreatio.block_grinder: OP
 ftbu.claims.block.edit.exnihilocreatio.block_infested_leaves: OP
+ftbu.claims.block.edit.exnihilocreatio.block_infesting_leaves: OP
 ftbu.claims.block.edit.exnihilocreatio.block_netherrack_crushed: OP
 ftbu.claims.block.edit.exnihilocreatio.block_sieve: OP
+ftbu.claims.block.edit.exnihilocreatio.block_skystone_crushed: OP
 ftbu.claims.block.edit.exnihilocreatio.block_waterwheel: OP
 ftbu.claims.block.edit.exnihilocreatio.witchwater: OP
 ftbu.claims.block.edit.extracells.certustank: OP
@@ -1878,6 +1901,7 @@ ftbu.claims.block.edit.immersivepetroleum.fluid_crude_oil: OP
 ftbu.claims.block.edit.immersivepetroleum.fluid_diesel: OP
 ftbu.claims.block.edit.immersivepetroleum.fluid_gasoline: OP
 ftbu.claims.block.edit.immersivepetroleum.fluid_lubricant: OP
+ftbu.claims.block.edit.immersivepetroleum.fluid_napalm: OP
 ftbu.claims.block.edit.immersivepetroleum.metal_device: OP
 ftbu.claims.block.edit.immersivepetroleum.metal_multiblock: OP
 ftbu.claims.block.edit.immersivepetroleum.stone_decoration: OP
@@ -2473,6 +2497,7 @@ ftbu.claims.block.edit.openblocks.auto_anvil: OP
 ftbu.claims.block.edit.openblocks.auto_enchantment_table: OP
 ftbu.claims.block.edit.openblocks.beartrap: OP
 ftbu.claims.block.edit.openblocks.big_button: OP
+ftbu.claims.block.edit.openblocks.big_button_wood: OP
 ftbu.claims.block.edit.openblocks.block_breaker: OP
 ftbu.claims.block.edit.openblocks.block_placer: OP
 ftbu.claims.block.edit.openblocks.builder_guide: OP
@@ -2517,6 +2542,8 @@ ftbu.claims.block.edit.plustic.osmiridiumblock: OP
 ftbu.claims.block.edit.plustic.plustic.molten_alumite: OP
 ftbu.claims.block.edit.plustic.plustic.molten_elementium: OP
 ftbu.claims.block.edit.plustic.plustic.molten_enderium: OP
+ftbu.claims.block.edit.plustic.plustic.molten_fiery: OP
+ftbu.claims.block.edit.plustic.plustic.molten_fiery_blood: OP
 ftbu.claims.block.edit.plustic.plustic.molten_infinity: OP
 ftbu.claims.block.edit.plustic.plustic.molten_invar: OP
 ftbu.claims.block.edit.plustic.plustic.molten_iridium: OP
@@ -3024,6 +3051,9 @@ ftbu.claims.block.edit.twilightforest.cinder_log: OP
 ftbu.claims.block.edit.twilightforest.dark_leaves: OP
 ftbu.claims.block.edit.twilightforest.deadrock: OP
 ftbu.claims.block.edit.twilightforest.double_aurora_slab: OP
+ftbu.claims.block.edit.twilightforest.etched_nagastone: OP
+ftbu.claims.block.edit.twilightforest.etched_nagastone_mossy: OP
+ftbu.claims.block.edit.twilightforest.etched_nagastone_weathered: OP
 ftbu.claims.block.edit.twilightforest.experiment_115: OP
 ftbu.claims.block.edit.twilightforest.fire_jet: OP
 ftbu.claims.block.edit.twilightforest.firefly: OP
@@ -3048,6 +3078,12 @@ ftbu.claims.block.edit.twilightforest.maze_stone: OP
 ftbu.claims.block.edit.twilightforest.miniature_structure: OP
 ftbu.claims.block.edit.twilightforest.moonworm: OP
 ftbu.claims.block.edit.twilightforest.naga_stone: OP
+ftbu.claims.block.edit.twilightforest.nagastone_pillar: OP
+ftbu.claims.block.edit.twilightforest.nagastone_pillar_mossy: OP
+ftbu.claims.block.edit.twilightforest.nagastone_pillar_weathered: OP
+ftbu.claims.block.edit.twilightforest.nagastone_stairs: OP
+ftbu.claims.block.edit.twilightforest.nagastone_stairs_mossy: OP
+ftbu.claims.block.edit.twilightforest.nagastone_stairs_weathered: OP
 ftbu.claims.block.edit.twilightforest.root: OP
 ftbu.claims.block.edit.twilightforest.slider: OP
 ftbu.claims.block.edit.twilightforest.spiral_bricks: OP
@@ -3277,6 +3313,7 @@ ftbu.claims.block.interact.avaritia.double_compressed_crafting_table: OP
 ftbu.claims.block.interact.avaritia.extreme_crafting_table: OP
 ftbu.claims.block.interact.avaritia.neutron_collector: OP
 ftbu.claims.block.interact.avaritia.neutronium_compressor: OP
+ftbu.claims.block.interact.avaritiatweaks.gaia_block: OP
 ftbu.claims.block.interact.bibliocraft.armorstand: OP
 ftbu.claims.block.interact.bibliocraft.bell: OP
 ftbu.claims.block.interact.bibliocraft.bookcase: OP
@@ -3342,6 +3379,7 @@ ftbu.claims.block.interact.bigreactors.turbinepowertaptesla: OP
 ftbu.claims.block.interact.bigreactors.turbinerotorblade: OP
 ftbu.claims.block.interact.bigreactors.turbinerotorshaft: OP
 ftbu.claims.block.interact.bigreactors.yellorium: OP
+ftbu.claims.block.interact.bonsaitrees.bonsaipot: OP
 ftbu.claims.block.interact.botania.alchemycatalyst: OP
 ftbu.claims.block.interact.botania.alfheimportal: OP
 ftbu.claims.block.interact.botania.altar: OP
@@ -3594,6 +3632,7 @@ ftbu.claims.block.interact.calculator.atomicmultiplier: OP
 ftbu.claims.block.interact.calculator.basicgreenhouse: OP
 ftbu.claims.block.interact.calculator.calculatorlocator: OP
 ftbu.claims.block.interact.calculator.calculatorplug: OP
+ftbu.claims.block.interact.calculator.calculatorscreenblock: OP
 ftbu.claims.block.interact.calculator.co2generator: OP
 ftbu.claims.block.interact.calculator.conductormast: OP
 ftbu.claims.block.interact.calculator.conductormastblock: OP
@@ -3949,10 +3988,13 @@ ftbu.claims.block.interact.cookingforblockheads.sink: OP
 ftbu.claims.block.interact.cookingforblockheads.spice_rack: OP
 ftbu.claims.block.interact.cookingforblockheads.toaster: OP
 ftbu.claims.block.interact.cookingforblockheads.tool_rack: OP
+ftbu.claims.block.interact.cyclicmagic.apple: OP
 ftbu.claims.block.interact.cyclicmagic.auto_crafter: OP
 ftbu.claims.block.interact.cyclicmagic.beacon_potion: OP
 ftbu.claims.block.interact.cyclicmagic.beacon_redstone: OP
+ftbu.claims.block.interact.cyclicmagic.block_anvil: OP
 ftbu.claims.block.interact.cyclicmagic.block_disenchanter: OP
+ftbu.claims.block.interact.cyclicmagic.block_enchanter: OP
 ftbu.claims.block.interact.cyclicmagic.block_fishing: OP
 ftbu.claims.block.interact.cyclicmagic.block_forester: OP
 ftbu.claims.block.interact.cyclicmagic.block_fragile: OP
@@ -4023,15 +4065,18 @@ ftbu.claims.block.interact.cyclicmagic.wireless_transmitter: OP
 ftbu.claims.block.interact.cyclicmagic.xpjuice: OP
 ftbu.claims.block.interact.darkutils.anti_slime: OP
 ftbu.claims.block.interact.darkutils.ender_hopper: OP
+ftbu.claims.block.interact.darkutils.ender_pearl_hopper: OP
 ftbu.claims.block.interact.darkutils.ender_tether: OP
 ftbu.claims.block.interact.darkutils.fake_tnt: OP
 ftbu.claims.block.interact.darkutils.filter: OP
 ftbu.claims.block.interact.darkutils.filter_inverted: OP
 ftbu.claims.block.interact.darkutils.grate: OP
+ftbu.claims.block.interact.darkutils.monolith: OP
 ftbu.claims.block.interact.darkutils.pearl_block: OP
 ftbu.claims.block.interact.darkutils.slime_dyed: OP
 ftbu.claims.block.interact.darkutils.sneaky: OP
 ftbu.claims.block.interact.darkutils.sneaky_bedrock: OP
+ftbu.claims.block.interact.darkutils.sneaky_button: OP
 ftbu.claims.block.interact.darkutils.sneaky_ghost: OP
 ftbu.claims.block.interact.darkutils.sneaky_lever: OP
 ftbu.claims.block.interact.darkutils.sneaky_obsidian: OP
@@ -4261,8 +4306,10 @@ ftbu.claims.block.interact.exnihilocreatio.block_dust: OP
 ftbu.claims.block.interact.exnihilocreatio.block_endstone_crushed: OP
 ftbu.claims.block.interact.exnihilocreatio.block_grinder: OP
 ftbu.claims.block.interact.exnihilocreatio.block_infested_leaves: OP
+ftbu.claims.block.interact.exnihilocreatio.block_infesting_leaves: OP
 ftbu.claims.block.interact.exnihilocreatio.block_netherrack_crushed: OP
 ftbu.claims.block.interact.exnihilocreatio.block_sieve: OP
+ftbu.claims.block.interact.exnihilocreatio.block_skystone_crushed: OP
 ftbu.claims.block.interact.exnihilocreatio.block_waterwheel: OP
 ftbu.claims.block.interact.exnihilocreatio.witchwater: OP
 ftbu.claims.block.interact.extracells.certustank: OP
@@ -4349,7 +4396,6 @@ ftbu.claims.block.interact.fluxnetworks.fluxpoint: OP
 ftbu.claims.block.interact.fluxnetworks.fluxstorage: OP
 ftbu.claims.block.interact.fluxnetworks.gargantuanfluxstorage: OP
 ftbu.claims.block.interact.fluxnetworks.herculeanfluxstorage: OP
-ftbu.claims.block.interact.gravestone.gravestone: OP
 ftbu.claims.block.interact.hammercore.chunk_loader: OP
 ftbu.claims.block.interact.hammercore.infi_rf: OP
 ftbu.claims.block.interact.hammercore.iwrench_block: OP
@@ -4585,6 +4631,7 @@ ftbu.claims.block.interact.immersivepetroleum.fluid_crude_oil: OP
 ftbu.claims.block.interact.immersivepetroleum.fluid_diesel: OP
 ftbu.claims.block.interact.immersivepetroleum.fluid_gasoline: OP
 ftbu.claims.block.interact.immersivepetroleum.fluid_lubricant: OP
+ftbu.claims.block.interact.immersivepetroleum.fluid_napalm: OP
 ftbu.claims.block.interact.immersivepetroleum.metal_device: OP
 ftbu.claims.block.interact.immersivepetroleum.metal_multiblock: OP
 ftbu.claims.block.interact.immersivepetroleum.stone_decoration: OP
@@ -5180,6 +5227,7 @@ ftbu.claims.block.interact.openblocks.auto_anvil: OP
 ftbu.claims.block.interact.openblocks.auto_enchantment_table: OP
 ftbu.claims.block.interact.openblocks.beartrap: OP
 ftbu.claims.block.interact.openblocks.big_button: OP
+ftbu.claims.block.interact.openblocks.big_button_wood: OP
 ftbu.claims.block.interact.openblocks.block_breaker: OP
 ftbu.claims.block.interact.openblocks.block_placer: OP
 ftbu.claims.block.interact.openblocks.builder_guide: OP
@@ -5224,6 +5272,8 @@ ftbu.claims.block.interact.plustic.osmiridiumblock: OP
 ftbu.claims.block.interact.plustic.plustic.molten_alumite: OP
 ftbu.claims.block.interact.plustic.plustic.molten_elementium: OP
 ftbu.claims.block.interact.plustic.plustic.molten_enderium: OP
+ftbu.claims.block.interact.plustic.plustic.molten_fiery: OP
+ftbu.claims.block.interact.plustic.plustic.molten_fiery_blood: OP
 ftbu.claims.block.interact.plustic.plustic.molten_infinity: OP
 ftbu.claims.block.interact.plustic.plustic.molten_invar: OP
 ftbu.claims.block.interact.plustic.plustic.molten_iridium: OP
@@ -5731,6 +5781,9 @@ ftbu.claims.block.interact.twilightforest.cinder_log: OP
 ftbu.claims.block.interact.twilightforest.dark_leaves: OP
 ftbu.claims.block.interact.twilightforest.deadrock: OP
 ftbu.claims.block.interact.twilightforest.double_aurora_slab: OP
+ftbu.claims.block.interact.twilightforest.etched_nagastone: OP
+ftbu.claims.block.interact.twilightforest.etched_nagastone_mossy: OP
+ftbu.claims.block.interact.twilightforest.etched_nagastone_weathered: OP
 ftbu.claims.block.interact.twilightforest.experiment_115: OP
 ftbu.claims.block.interact.twilightforest.fire_jet: OP
 ftbu.claims.block.interact.twilightforest.firefly: OP
@@ -5755,6 +5808,12 @@ ftbu.claims.block.interact.twilightforest.maze_stone: OP
 ftbu.claims.block.interact.twilightforest.miniature_structure: OP
 ftbu.claims.block.interact.twilightforest.moonworm: OP
 ftbu.claims.block.interact.twilightforest.naga_stone: OP
+ftbu.claims.block.interact.twilightforest.nagastone_pillar: OP
+ftbu.claims.block.interact.twilightforest.nagastone_pillar_mossy: OP
+ftbu.claims.block.interact.twilightforest.nagastone_pillar_weathered: OP
+ftbu.claims.block.interact.twilightforest.nagastone_stairs: OP
+ftbu.claims.block.interact.twilightforest.nagastone_stairs_mossy: OP
+ftbu.claims.block.interact.twilightforest.nagastone_stairs_weathered: OP
 ftbu.claims.block.interact.twilightforest.root: OP
 ftbu.claims.block.interact.twilightforest.slider: OP
 ftbu.claims.block.interact.twilightforest.spiral_bricks: OP
@@ -6204,6 +6263,8 @@ ftbu.claims.item.avaritia.resource: ALL
 ftbu.claims.item.avaritia.singularity: ALL
 ftbu.claims.item.avaritia.skullfire_sword: ALL
 ftbu.claims.item.avaritia.ultimate_stew: ALL
+ftbu.claims.item.avaritiatweaks.enhancement_crystal: ALL
+ftbu.claims.item.avaritiatweaks.gaia_block: ALL
 ftbu.claims.item.baubles.ring: ALL
 ftbu.claims.item.betterbuilderswands.wanddiamond: ALL
 ftbu.claims.item.betterbuilderswands.wandiron: ALL
@@ -6309,6 +6370,7 @@ ftbu.claims.item.bigreactors.turbinepowertaptesla: ALL
 ftbu.claims.item.bigreactors.turbinerotorblade: ALL
 ftbu.claims.item.bigreactors.turbinerotorshaft: ALL
 ftbu.claims.item.bigreactors.wrench: ALL
+ftbu.claims.item.bonsaitrees.bonsaipot: ALL
 ftbu.claims.item.botania.alchemycatalyst: ALL
 ftbu.claims.item.botania.alfheimportal: ALL
 ftbu.claims.item.botania.altar: ALL
@@ -6673,6 +6735,7 @@ ftbu.claims.item.calculator.calculatorassembly: ALL
 ftbu.claims.item.calculator.calculatorlocator: ALL
 ftbu.claims.item.calculator.calculatorplug: ALL
 ftbu.claims.item.calculator.calculatorscreen: ALL
+ftbu.claims.item.calculator.calculatorscreenblock: ALL
 ftbu.claims.item.calculator.circuitboard: ALL
 ftbu.claims.item.calculator.circuitdamaged: ALL
 ftbu.claims.item.calculator.circuitdirty: ALL
@@ -7175,12 +7238,15 @@ ftbu.claims.item.cookingforblockheads.sink: ALL
 ftbu.claims.item.cookingforblockheads.spice_rack: ALL
 ftbu.claims.item.cookingforblockheads.toaster: ALL
 ftbu.claims.item.cookingforblockheads.tool_rack: ALL
+ftbu.claims.item.cyclicmagic.apple: ALL
 ftbu.claims.item.cyclicmagic.apple_emerald: ALL
 ftbu.claims.item.cyclicmagic.apple_lapis: ALL
 ftbu.claims.item.cyclicmagic.auto_crafter: ALL
 ftbu.claims.item.cyclicmagic.beacon_potion: ALL
 ftbu.claims.item.cyclicmagic.beacon_redstone: ALL
+ftbu.claims.item.cyclicmagic.block_anvil: ALL
 ftbu.claims.item.cyclicmagic.block_disenchanter: ALL
+ftbu.claims.item.cyclicmagic.block_enchanter: ALL
 ftbu.claims.item.cyclicmagic.block_fishing: ALL
 ftbu.claims.item.cyclicmagic.block_forester: ALL
 ftbu.claims.item.cyclicmagic.block_fragile: ALL
@@ -7359,6 +7425,7 @@ ftbu.claims.item.darkutils.charm_null: ALL
 ftbu.claims.item.darkutils.charm_portal: ALL
 ftbu.claims.item.darkutils.charm_sleep: ALL
 ftbu.claims.item.darkutils.ender_hopper: ALL
+ftbu.claims.item.darkutils.ender_pearl_hopper: ALL
 ftbu.claims.item.darkutils.ender_tether: ALL
 ftbu.claims.item.darkutils.fake_tnt: ALL
 ftbu.claims.item.darkutils.filter: ALL
@@ -7367,12 +7434,13 @@ ftbu.claims.item.darkutils.focus_sash: ALL
 ftbu.claims.item.darkutils.grate: ALL
 ftbu.claims.item.darkutils.lore_tag: ALL
 ftbu.claims.item.darkutils.material: ALL
+ftbu.claims.item.darkutils.monolith: ALL
 ftbu.claims.item.darkutils.pearl_block: ALL
-ftbu.claims.item.darkutils.ring: ALL
 ftbu.claims.item.darkutils.shulker_pearl: ALL
 ftbu.claims.item.darkutils.slime_dyed: ALL
 ftbu.claims.item.darkutils.sneaky: ALL
 ftbu.claims.item.darkutils.sneaky_bedrock: ALL
+ftbu.claims.item.darkutils.sneaky_button: ALL
 ftbu.claims.item.darkutils.sneaky_ghost: ALL
 ftbu.claims.item.darkutils.sneaky_lever: ALL
 ftbu.claims.item.darkutils.sneaky_obsidian: ALL
@@ -7717,8 +7785,10 @@ ftbu.claims.item.exnihilocreatio.block_dust: ALL
 ftbu.claims.item.exnihilocreatio.block_endstone_crushed: ALL
 ftbu.claims.item.exnihilocreatio.block_grinder: ALL
 ftbu.claims.item.exnihilocreatio.block_infested_leaves: ALL
+ftbu.claims.item.exnihilocreatio.block_infesting_leaves: ALL
 ftbu.claims.item.exnihilocreatio.block_netherrack_crushed: ALL
 ftbu.claims.item.exnihilocreatio.block_sieve: ALL
+ftbu.claims.item.exnihilocreatio.block_skystone_crushed: ALL
 ftbu.claims.item.exnihilocreatio.block_waterwheel: ALL
 ftbu.claims.item.exnihilocreatio.crook_bone: ALL
 ftbu.claims.item.exnihilocreatio.crook_wood: ALL
@@ -7893,8 +7963,6 @@ ftbu.claims.item.flyringbaublemod.birdcage: ALL
 ftbu.claims.item.flyringbaublemod.flyingring: ALL
 ftbu.claims.item.flyringbaublemod.pair: ALL
 ftbu.claims.item.forge.bucketfilled: OP
-ftbu.claims.item.gravestone.death_info: ALL
-ftbu.claims.item.gravestone.gravestone: ALL
 ftbu.claims.item.hammercore.battery: ALL
 ftbu.claims.item.hammercore.calculatron: ALL
 ftbu.claims.item.hammercore.chunk_loader: ALL
@@ -8180,6 +8248,7 @@ ftbu.claims.item.harvestcraft.cookedtofeegitem: ALL
 ftbu.claims.item.harvestcraft.cookedtofenisonitem: ALL
 ftbu.claims.item.harvestcraft.cookedtofickenitem: ALL
 ftbu.claims.item.harvestcraft.cookedtofishitem: ALL
+ftbu.claims.item.harvestcraft.cookedtofuduckitem: ALL
 ftbu.claims.item.harvestcraft.cookedtofurkeyitem: ALL
 ftbu.claims.item.harvestcraft.cookedtofuttonitem: ALL
 ftbu.claims.item.harvestcraft.cookiesandmilkitem: ALL
@@ -8204,6 +8273,7 @@ ftbu.claims.item.harvestcraft.crabrawitem: ALL
 ftbu.claims.item.harvestcraft.crackeritem: ALL
 ftbu.claims.item.harvestcraft.crackersandcheeseitem: ALL
 ftbu.claims.item.harvestcraft.crackersitem: ALL
+ftbu.claims.item.harvestcraft.cracklinsitem: ALL
 ftbu.claims.item.harvestcraft.cranberrybaritem: ALL
 ftbu.claims.item.harvestcraft.cranberryitem: ALL
 ftbu.claims.item.harvestcraft.cranberryjellyitem: ALL
@@ -8319,6 +8389,7 @@ ftbu.claims.item.harvestcraft.garammasalaitem: ALL
 ftbu.claims.item.harvestcraft.gardensoupitem: ALL
 ftbu.claims.item.harvestcraft.garlicbreaditem: ALL
 ftbu.claims.item.harvestcraft.garlicchickenitem: ALL
+ftbu.claims.item.harvestcraft.garliccoinitem: ALL
 ftbu.claims.item.harvestcraft.garlicitem: ALL
 ftbu.claims.item.harvestcraft.garlicmashedpotatoesitem: ALL
 ftbu.claims.item.harvestcraft.garlicseeditem: ALL
@@ -8387,7 +8458,6 @@ ftbu.claims.item.harvestcraft.hardenedleatherchestitem: ALL
 ftbu.claims.item.harvestcraft.hardenedleatherhelmitem: ALL
 ftbu.claims.item.harvestcraft.hardenedleatheritem: ALL
 ftbu.claims.item.harvestcraft.hardenedleatherleggingsitem: ALL
-ftbu.claims.item.harvestcraft.harvestpumpkinitem: ALL
 ftbu.claims.item.harvestcraft.hashitem: ALL
 ftbu.claims.item.harvestcraft.heartybreakfastitem: ALL
 ftbu.claims.item.harvestcraft.heavycreamitem: ALL
@@ -8702,6 +8772,7 @@ ftbu.claims.item.harvestcraft.pomegranateyogurtitem: ALL
 ftbu.claims.item.harvestcraft.popcornitem: ALL
 ftbu.claims.item.harvestcraft.porklettucewrapitem: ALL
 ftbu.claims.item.harvestcraft.porklomeinitem: ALL
+ftbu.claims.item.harvestcraft.porkrindsitem: ALL
 ftbu.claims.item.harvestcraft.porksausageitem: ALL
 ftbu.claims.item.harvestcraft.potatoandcheesepirogiitem: ALL
 ftbu.claims.item.harvestcraft.potatoandleeksoupitem: ALL
@@ -8750,6 +8821,7 @@ ftbu.claims.item.harvestcraft.rawtofeegitem: ALL
 ftbu.claims.item.harvestcraft.rawtofenisonitem: ALL
 ftbu.claims.item.harvestcraft.rawtofickenitem: ALL
 ftbu.claims.item.harvestcraft.rawtofishitem: ALL
+ftbu.claims.item.harvestcraft.rawtofuduckitem: ALL
 ftbu.claims.item.harvestcraft.rawtofurkeyitem: ALL
 ftbu.claims.item.harvestcraft.rawtofuttonitem: ALL
 ftbu.claims.item.harvestcraft.redvelvetcake: ALL
@@ -9471,13 +9543,11 @@ ftbu.claims.item.minecraft.chorus_plant: ALL
 ftbu.claims.item.minecraft.clay: ALL
 ftbu.claims.item.minecraft.clay_ball: ALL
 ftbu.claims.item.minecraft.clock: ALL
-ftbu.claims.item.minecraft.clownfish: ALL
 ftbu.claims.item.minecraft.coal: ALL
 ftbu.claims.item.minecraft.coal_block: ALL
 ftbu.claims.item.minecraft.coal_ore: ALL
 ftbu.claims.item.minecraft.cobblestone: ALL
 ftbu.claims.item.minecraft.cobblestone_wall: ALL
-ftbu.claims.item.minecraft.cod: ALL
 ftbu.claims.item.minecraft.command_block: ALL
 ftbu.claims.item.minecraft.command_block_minecart: ALL
 ftbu.claims.item.minecraft.comparator: ALL
@@ -9486,12 +9556,10 @@ ftbu.claims.item.minecraft.concrete: ALL
 ftbu.claims.item.minecraft.concrete_powder: ALL
 ftbu.claims.item.minecraft.cooked_beef: ALL
 ftbu.claims.item.minecraft.cooked_chicken: ALL
-ftbu.claims.item.minecraft.cooked_cod: ALL
 ftbu.claims.item.minecraft.cooked_fish: ALL
 ftbu.claims.item.minecraft.cooked_mutton: ALL
 ftbu.claims.item.minecraft.cooked_porkchop: ALL
 ftbu.claims.item.minecraft.cooked_rabbit: ALL
-ftbu.claims.item.minecraft.cooked_salmon: ALL
 ftbu.claims.item.minecraft.cookie: ALL
 ftbu.claims.item.minecraft.crafting_table: ALL
 ftbu.claims.item.minecraft.cyan_glazed_terracotta: ALL
@@ -9685,7 +9753,6 @@ ftbu.claims.item.minecraft.potion: ALL
 ftbu.claims.item.minecraft.prismarine: ALL
 ftbu.claims.item.minecraft.prismarine_crystals: ALL
 ftbu.claims.item.minecraft.prismarine_shard: ALL
-ftbu.claims.item.minecraft.pufferfish: ALL
 ftbu.claims.item.minecraft.pumpkin: ALL
 ftbu.claims.item.minecraft.pumpkin_pie: ALL
 ftbu.claims.item.minecraft.pumpkin_seeds: ALL
@@ -9734,7 +9801,6 @@ ftbu.claims.item.minecraft.repeater: ALL
 ftbu.claims.item.minecraft.repeating_command_block: ALL
 ftbu.claims.item.minecraft.rotten_flesh: ALL
 ftbu.claims.item.minecraft.saddle: ALL
-ftbu.claims.item.minecraft.salmon: ALL
 ftbu.claims.item.minecraft.sand: ALL
 ftbu.claims.item.minecraft.sandstone: ALL
 ftbu.claims.item.minecraft.sandstone_stairs: ALL
@@ -10265,6 +10331,7 @@ ftbu.claims.item.openblocks.auto_anvil: ALL
 ftbu.claims.item.openblocks.auto_enchantment_table: ALL
 ftbu.claims.item.openblocks.beartrap: ALL
 ftbu.claims.item.openblocks.big_button: ALL
+ftbu.claims.item.openblocks.big_button_wood: ALL
 ftbu.claims.item.openblocks.block_breaker: ALL
 ftbu.claims.item.openblocks.block_placer: ALL
 ftbu.claims.item.openblocks.builder_guide: ALL
@@ -10353,6 +10420,8 @@ ftbu.claims.item.plustic.pipe_piece: ALL
 ftbu.claims.item.plustic.plustic.molten_alumite: ALL
 ftbu.claims.item.plustic.plustic.molten_elementium: ALL
 ftbu.claims.item.plustic.plustic.molten_enderium: ALL
+ftbu.claims.item.plustic.plustic.molten_fiery: ALL
+ftbu.claims.item.plustic.plustic.molten_fiery_blood: ALL
 ftbu.claims.item.plustic.plustic.molten_infinity: ALL
 ftbu.claims.item.plustic.plustic.molten_invar: ALL
 ftbu.claims.item.plustic.plustic.molten_iridium: ALL
@@ -10645,7 +10714,6 @@ ftbu.claims.item.rftools.saturationplus_module: ALL
 ftbu.claims.item.rftools.scanner: ALL
 ftbu.claims.item.rftools.screen: ALL
 ftbu.claims.item.rftools.screen_controller: ALL
-ftbu.claims.item.rftools.screen_hitblock: ALL
 ftbu.claims.item.rftools.security_card: ALL
 ftbu.claims.item.rftools.security_manager: ALL
 ftbu.claims.item.rftools.sensor_block: ALL
@@ -11491,6 +11559,9 @@ ftbu.claims.item.twilightforest.cube_talisman: ALL
 ftbu.claims.item.twilightforest.dark_leaves: ALL
 ftbu.claims.item.twilightforest.deadrock: ALL
 ftbu.claims.item.twilightforest.ender_bow: ALL
+ftbu.claims.item.twilightforest.etched_nagastone: ALL
+ftbu.claims.item.twilightforest.etched_nagastone_mossy: ALL
+ftbu.claims.item.twilightforest.etched_nagastone_weathered: ALL
 ftbu.claims.item.twilightforest.experiment_115: ALL
 ftbu.claims.item.twilightforest.fiery_blood: ALL
 ftbu.claims.item.twilightforest.fiery_boots: ALL
@@ -11568,6 +11639,12 @@ ftbu.claims.item.twilightforest.naga_chestplate: ALL
 ftbu.claims.item.twilightforest.naga_leggings: ALL
 ftbu.claims.item.twilightforest.naga_scale: ALL
 ftbu.claims.item.twilightforest.naga_stone: ALL
+ftbu.claims.item.twilightforest.nagastone_pillar: ALL
+ftbu.claims.item.twilightforest.nagastone_pillar_mossy: ALL
+ftbu.claims.item.twilightforest.nagastone_pillar_weathered: ALL
+ftbu.claims.item.twilightforest.nagastone_stairs: ALL
+ftbu.claims.item.twilightforest.nagastone_stairs_mossy: ALL
+ftbu.claims.item.twilightforest.nagastone_stairs_weathered: ALL
 ftbu.claims.item.twilightforest.ore_magnet: ALL
 ftbu.claims.item.twilightforest.ore_map: ALL
 ftbu.claims.item.twilightforest.ore_map_empty: ALL

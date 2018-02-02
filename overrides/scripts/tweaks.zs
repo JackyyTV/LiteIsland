@@ -49,5 +49,7 @@ print("Loading tweaks...");
 <exnihilocreatio:item_mesh:2>.maxStackSize = 64;
 <exnihilocreatio:item_mesh:3>.maxStackSize = 64;
 <exnihilocreatio:item_mesh:4>.maxStackSize = 64;
+<minecraft:cake>.maxStackSize = 64;
+<avaritia:endest_pearl>.maxStackSize = 64;
 
 print("Tweaks loaded.");

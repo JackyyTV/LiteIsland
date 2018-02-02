@@ -23,7 +23,7 @@ mods.avaritia.ExtremeCrafting.addShapeless("null", null, [
 ]);
 */
 
-print("Loading extreme crafting...");
+print("Loading Extreme Crafting Recipes for Normal Mode...");
 
 //Infinity Catalyst
 mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:5>);
@@ -251,4 +251,4 @@ mods.avaritia.ExtremeCrafting.addShaped("ct_creative_watering_can", <thermalcult
   [null, null, null, null, null, null, null, null, null]
 ]);
 
-print("Extreme crafting loaded.");
+print("Extreme Crafting Recipes for Normal Mode loaded.");
