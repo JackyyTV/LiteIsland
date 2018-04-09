@@ -6,14 +6,12 @@
 	"ranks": {
 		"player": {
 			"parent": "builtin_player",
-			"permissions": [],
-			"config": {}
+			"permissions": {}
 		},
 		"op": {
 			"parent": "builtin_op",
 			"syntax": "<&2$name&r> ",
-			"permissions": [],
-			"config": {}
+			"permissions": {}
 		}
 	}
 }

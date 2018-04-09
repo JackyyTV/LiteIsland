@@ -39,11 +39,14 @@ val ToBeRemoved = [
   <mekanismtools:bronzehelmet>, <mekanismtools:bronzechestplate>, <mekanismtools:bronzeleggings>,
   <mekanismtools:bronzeboots>, <mekanismtools:bronzesword>, <mekanismtools:bronzepickaxe>, <mekanismtools:bronzeaxe>,
   <mekanismtools:bronzeshovel>, <mekanismtools:bronzehoe>, <quantumstorage:trashcan>, <quantumstorage:trashcanfluid>,
-  <tp:stone_torch>, <chisel:futura>, <excompressum:compressed_block:1>, <excompressum:compressed_block:2>,
+  <chisel:futura>, <excompressum:compressed_block:1>, <excompressum:compressed_block:2>,
   <excompressum:compressed_block:3>, <excompressum:compressed_block:4>, <excompressum:compressed_block:5>,
   <excompressum:compressed_block:9>, <excompressum:iron_mesh>, <hammercore:iron_gear>, <cyclicmagic:uncrafting_block>,
   <betterbuilderswands:wanddiamond>, <betterbuilderswands:wandiron>, <tp:diamond_spear>, <tp:iron_spear>,
-  <twilightforest:uncrafting_table>
+  <twilightforest:uncrafting_table>, <ironchest:iron_gold_shulker_upgrade>, <ironchest:gold_diamond_shulker_upgrade>,
+  <ironchest:copper_silver_shulker_upgrade>, <ironchest:silver_gold_shulker_upgrade>, <ironchest:copper_iron_shulker_upgrade>,
+  <ironchest:diamond_crystal_shulker_upgrade>, <ironchest:diamond_obsidian_shulker_upgrade>, <tp:emerald_helmet>,
+  <tp:emerald_chestplate>, <tp:emerald_leggings>, <tp:emerald_boots>
 ] as IIngredient[];
 for item in ToBeRemoved {
   recipes.remove(item);
@@ -60,7 +63,12 @@ val ARInput = [
   <thermalfoundation:tool.shovel_steel>, <thermalfoundation:tool.hoe_steel>, <thermalfoundation:armor.helmet_bronze>,
   <thermalfoundation:armor.plate_bronze>, <thermalfoundation:armor.legs_bronze>, <thermalfoundation:armor.boots_bronze>,
   <thermalfoundation:tool.sword_bronze>, <thermalfoundation:tool.pickaxe_bronze>, <thermalfoundation:tool.axe_bronze>,
-  <thermalfoundation:tool.shovel_bronze>, <thermalfoundation:tool.hoe_bronze>, <thermalfoundation:material:24>
+  <thermalfoundation:tool.shovel_bronze>, <thermalfoundation:tool.hoe_bronze>, <thermalfoundation:material:24>,
+  <ironchest:iron_gold_chest_upgrade>, <ironchest:gold_diamond_chest_upgrade>, <ironchest:copper_silver_chest_upgrade>,
+  <ironchest:silver_gold_chest_upgrade>, <ironchest:copper_iron_chest_upgrade>, <ironchest:diamond_crystal_chest_upgrade>,
+  <ironchest:diamond_obsidian_chest_upgrade>, <extrautils2:trashcan>, <extrautils2:trashcanfluid>,
+  <actuallyadditions:item_helm_emerald>, <actuallyadditions:item_chest_emerald>, <actuallyadditions:item_pants_emerald>,
+  <actuallyadditions:item_boots_emerald>
 ] as IItemStack[];
 val AROutput = [
   <actuallyadditions:item_helm_emerald>, <actuallyadditions:item_chest_emerald>, <actuallyadditions:item_pants_emerald>,
@@ -74,20 +82,15 @@ val AROutput = [
   <mekanismtools:steelboots>, <mekanismtools:steelsword>, <mekanismtools:steelpickaxe>, <mekanismtools:steelaxe>,
   <mekanismtools:steelshovel>, <mekanismtools:steelhoe>, <mekanismtools:bronzehelmet>, <mekanismtools:bronzechestplate>,
   <mekanismtools:bronzeleggings>, <mekanismtools:bronzeboots>, <mekanismtools:bronzesword>, <mekanismtools:bronzepickaxe>,
-  <mekanismtools:bronzeaxe>, <mekanismtools:bronzeshovel>, <mekanismtools:bronzehoe>, <hammercore:iron_gear>
+  <mekanismtools:bronzeaxe>, <mekanismtools:bronzeshovel>, <mekanismtools:bronzehoe>, <hammercore:iron_gear>,
+  <ironchest:iron_gold_shulker_upgrade>, <ironchest:gold_diamond_shulker_upgrade>, <ironchest:copper_silver_shulker_upgrade>,
+  <ironchest:silver_gold_shulker_upgrade>, <ironchest:copper_iron_shulker_upgrade>, <ironchest:diamond_crystal_shulker_upgrade>,
+  <ironchest:diamond_obsidian_shulker_upgrade>, <quantumstorage:trashcan>, <quantumstorage:trashcanfluid>,
+  <tp:emerald_helmet>, <tp:emerald_chestplate>, <tp:emerald_leggings>, <tp:emerald_boots>
 ] as IItemStack[];
 for i, item in ARInput {
   mods.actuallyadditions.AtomicReconstructor.addRecipe(AROutput[i], item, 1500);
 }
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<quantumstorage:trashcan>,
-  <extrautils2:trashcan>, 1000
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<quantumstorage:trashcanfluid>,
-  <extrautils2:trashcanfluid>, 1000
-);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<tp:stone_torch>,
-  <tconstruct:stone_torch>, 100
-);
 recipes.addShapedMirrored("ct_wooden_wrench", <chiselsandbits:wrench_wood>, [
   [null, <ore:plankWood>, null],
   [null, <ore:gearWood>, <ore:plankWood>],

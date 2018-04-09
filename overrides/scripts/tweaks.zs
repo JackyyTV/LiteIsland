@@ -12,13 +12,8 @@ import crafttweaker.oredict.IOreDictEntry;
 print("Loading tweaks...");
 
 //Adds stuff to OreDict
-<ore:endstone>.add(<tp:smooth_endstone>);
-<ore:stoneGranite>.add(<tp:granite_brick>);
-<ore:stoneDiorite>.add(<tp:diorite_brick>);
-<ore:stoneAndesite>.add(<tp:andesite_brick>);
 <ore:stickStone>.add(<tconstruct:stone_stick>);
 <ore:oreEnder>.add(<tp:ender_ore>);
-<ore:oreLava>.add(<tp:lava_ore>);
 <ore:oreSticky>.add(<aroma1997sdimension:stickyore>);
 <ore:oreDraconium>.add(<draconicevolution:draconium_ore:1>);
 <ore:oreNetherDraconium>.add(<draconicevolution:draconium_ore:1>);
@@ -43,6 +38,8 @@ print("Loading tweaks...");
 <ore:oreEndEmerald>.add(<cyclicmagic:end_emerald_ore>);
 <ore:oreEndLapis>.add(<cyclicmagic:end_lapis_ore>);
 <ore:oreEndRedstone>.add(<cyclicmagic:end_redstone_ore>);
+<ore:blockWoodenCrucible>.add(<excompressum:wooden_crucible:*>);
+<ore:blockHeavySieve>.add(<excompressum:heavy_sieve:*>);
 
 //Change stack size for some items
 <exnihilocreatio:item_mesh:1>.maxStackSize = 64;

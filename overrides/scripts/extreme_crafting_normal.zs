@@ -1,3 +1,4 @@
+#packmode normal
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
@@ -57,14 +58,14 @@ mods.avaritia.ExtremeCrafting.addShaped("ct_uncrafting_table", <twilightforest:u
 ]);
 
 //Creative Exchanger
-mods.avaritia.ExtremeCrafting.addShaped("ct_creative_exchanger", <exchangers:excreative>, [
+mods.avaritia.ExtremeCrafting.addShaped("ct_creative_exchanger", <exchangers:creative_exchanger>, [
   [null, null, <avaritia:resource:6>, <mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>, <avaritia:resource:6>, null, null],
   [null, null, <mysticalagradditions:stuff:69>, <extracells:storage.physical:3>, <storagedrawers:upgrade_creative:0>, <extracells:storage.physical:3>, <mysticalagradditions:stuff:69>, null, null],
-  [null, null, <mysticalagradditions:stuff:69>, <exchangers:exobsidian>, <exchangers:exobsidian>, <exchangers:exobsidian>, <mysticalagradditions:stuff:69>, null, null],
-  [null, null, <mysticalagradditions:stuff:69>, <exchangers:exresonant>, <exchangers:exresonant>, <exchangers:exresonant>, <mysticalagradditions:stuff:69>, null, null],
+  [null, null, <mysticalagradditions:stuff:69>, <exchangers:obsidian_exchanger>, <exchangers:obsidian_exchanger>, <exchangers:obsidian_exchanger>, <mysticalagradditions:stuff:69>, null, null],
+  [null, null, <mysticalagradditions:stuff:69>, <exchangers:resonant_exchanger>, <exchangers:resonant_exchanger>, <exchangers:resonant_exchanger>, <mysticalagradditions:stuff:69>, null, null],
   [null, null, <mysticalagradditions:stuff:69>, <avaritia:singularity:12>, <avaritia:resource:5>, <avaritia:singularity:12>, <mysticalagradditions:stuff:69>, null, null],
-  [null, null, <mysticalagradditions:stuff:69>, <exchangers:exultimate>, <exchangers:exultimate>, <exchangers:exultimate>, <mysticalagradditions:stuff:69>, null, null],
-  [null, null, <mysticalagradditions:stuff:69>, <exchangers:exhv>, <exchangers:exhv>, <exchangers:exhv>, <mysticalagradditions:stuff:69>, null, null],
+  [null, null, <mysticalagradditions:stuff:69>, <exchangers:ultimate_exchanger>, <exchangers:ultimate_exchanger>, <exchangers:ultimate_exchanger>, <mysticalagradditions:stuff:69>, null, null],
+  [null, null, <mysticalagradditions:stuff:69>, <exchangers:hv_exchanger>, <exchangers:hv_exchanger>, <exchangers:hv_exchanger>, <mysticalagradditions:stuff:69>, null, null],
   [null, null, <mysticalagradditions:stuff:69>, <extracells:storage.physical:3>, <storagedrawers:upgrade_creative:0>, <extracells:storage.physical:3>, <mysticalagradditions:stuff:69>, null, null],
   [null, null, <avaritia:resource:6>, <mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>, <avaritia:resource:6>, null, null]
 ]);
@@ -192,7 +193,7 @@ mods.avaritia.ExtremeCrafting.addShaped("ct_creative_vending_upgrade", <storaged
   [null, <avaritia:resource:6>, <mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>, <avaritia:resource:6>, null],
   [null, <mysticalagradditions:stuff:69>, <avaritia:endest_pearl>, <avaritia:endest_pearl>, <avaritia:endest_pearl>, <avaritia:endest_pearl>, <avaritia:endest_pearl>, <mysticalagradditions:stuff:69>, null],
   [null, <mysticalagradditions:stuff:69>, <avaritia:endest_pearl>, <avaritia:endest_pearl>, <storagedrawers:upgrade_creative:0>, <avaritia:endest_pearl>, <avaritia:endest_pearl>, <mysticalagradditions:stuff:69>, null],
-  [null, <mysticalagradditions:stuff:69>, <exchangers:excreative>, <storagedrawers:upgrade_creative:0>, <avaritia:resource:5>, <storagedrawers:upgrade_creative:0>, <exchangers:excreative>, <mysticalagradditions:stuff:69>, null],
+  [null, <mysticalagradditions:stuff:69>, <exchangers:creative_exchanger>, <storagedrawers:upgrade_creative:0>, <avaritia:resource:5>, <storagedrawers:upgrade_creative:0>, <exchangers:creative_exchanger>, <mysticalagradditions:stuff:69>, null],
   [null, <mysticalagradditions:stuff:69>, <avaritia:endest_pearl>, <avaritia:endest_pearl>, <storagedrawers:upgrade_creative:0>, <avaritia:endest_pearl>, <avaritia:endest_pearl>, <mysticalagradditions:stuff:69>, null],
   [null, <mysticalagradditions:stuff:69>, <avaritia:endest_pearl>, <avaritia:endest_pearl>, <avaritia:endest_pearl>, <avaritia:endest_pearl>, <avaritia:endest_pearl>, <mysticalagradditions:stuff:69>, null],
   [null, <avaritia:resource:6>, <mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>, <avaritia:resource:6>, null],

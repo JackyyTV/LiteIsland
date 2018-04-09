@@ -13,90 +13,552 @@ td.none{background-color:#FF4242;}
 <p>Node for wrenching blocks</p>
 </td></tr>
 <tr><td>command.*</td><td class='op'>OP</td><td>
-<p>Permission for commands, if FTBU command overriding is enabled. If not, this node will be inactive</p>
+<p>Permission for commands, if FTBUtilities command overriding is enabled. If not, this node will be inactive</p>
 </td></tr>
 <tr><td>cyclic.player.modify</td><td class='all'>ALL</td><td>
 <p>Check if the player modify blocks here</p>
 </td></tr>
-<tr><td>ftbu.back.infinite</td><td class='none'>NONE</td><td>
+<tr><td>enderio.attack.block_killer_joe</td><td class='all'>ALL</td><td>
+<p>Permission for the block block_killer_joe of Ender IO to attack entities. Note: The GameProfile will be for the block owner, the EntityPlayer in the context will be the fake player.</p>
+</td></tr>
+<tr><td>enderio.attract.tile.block_attractor_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission for the block tile.block_attractor_obelisk of Ender IO to attract entities. Note: The GameProfile will be for the block owner, the EntityPlayer in the context will be the fake player.</p>
+</td></tr>
+<tr><td>enderio.farm.tile.block_farm_station</td><td class='all'>ALL</td><td>
+<p>Permission for the block tile.block_farm_station of Ender IO to farm land. This includes tilling, planting, harvesting and fertilizing. Only the base block of a plant will be checked, not the dirt block below it or the additional plant blocks above it. Note: The GameProfile will be for the block owner, the EntityPlayer in the context will be the fake player.</p>
+</td></tr>
+<tr><td>enderio.gui.block_advanced_power_monitor</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_advanced_power_monitor</p>
+</td></tr>
+<tr><td>enderio.gui.block_alloy_smelter</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_alloy_smelter</p>
+</td></tr>
+<tr><td>enderio.gui.block_attractor_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_attractor_obelisk</p>
+</td></tr>
+<tr><td>enderio.gui.block_aversion_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_aversion_obelisk</p>
+</td></tr>
+<tr><td>enderio.gui.block_buffer</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_buffer</p>
+</td></tr>
+<tr><td>enderio.gui.block_cap_bank</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_cap_bank</p>
+</td></tr>
+<tr><td>enderio.gui.block_combustion_generator</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_combustion_generator</p>
+</td></tr>
+<tr><td>enderio.gui.block_conduit_bundle</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_conduit_bundle</p>
+</td></tr>
+<tr><td>enderio.gui.block_dark_steel_anvil</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_dark_steel_anvil</p>
+</td></tr>
+<tr><td>enderio.gui.block_dialing_device</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_dialing_device</p>
+</td></tr>
+<tr><td>enderio.gui.block_enchanter</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_enchanter</p>
+</td></tr>
+<tr><td>enderio.gui.block_enhanced_combustion_generator</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_enhanced_combustion_generator</p>
+</td></tr>
+<tr><td>enderio.gui.block_experience_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_experience_obelisk</p>
+</td></tr>
+<tr><td>enderio.gui.block_farm_station</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_farm_station</p>
+</td></tr>
+<tr><td>enderio.gui.block_impulse_hopper</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_impulse_hopper</p>
+</td></tr>
+<tr><td>enderio.gui.block_inhibitor_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_inhibitor_obelisk</p>
+</td></tr>
+<tr><td>enderio.gui.block_killer_joe</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_killer_joe</p>
+</td></tr>
+<tr><td>enderio.gui.block_painter</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_painter</p>
+</td></tr>
+<tr><td>enderio.gui.block_power_monitor</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_power_monitor</p>
+</td></tr>
+<tr><td>enderio.gui.block_powered_spawner</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_powered_spawner</p>
+</td></tr>
+<tr><td>enderio.gui.block_relocator_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_relocator_obelisk</p>
+</td></tr>
+<tr><td>enderio.gui.block_sag_mill</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_sag_mill</p>
+</td></tr>
+<tr><td>enderio.gui.block_simple_alloy_smelter</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_simple_alloy_smelter</p>
+</td></tr>
+<tr><td>enderio.gui.block_simple_sag_mill</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_simple_sag_mill</p>
+</td></tr>
+<tr><td>enderio.gui.block_simple_stirling_generator</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_simple_stirling_generator</p>
+</td></tr>
+<tr><td>enderio.gui.block_slice_and_splice</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_slice_and_splice</p>
+</td></tr>
+<tr><td>enderio.gui.block_soul_binder</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_soul_binder</p>
+</td></tr>
+<tr><td>enderio.gui.block_stirling_generator</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_stirling_generator</p>
+</td></tr>
+<tr><td>enderio.gui.block_tank</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_tank</p>
+</td></tr>
+<tr><td>enderio.gui.block_tele_pad</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_tele_pad</p>
+</td></tr>
+<tr><td>enderio.gui.block_transceiver</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_transceiver</p>
+</td></tr>
+<tr><td>enderio.gui.block_travel_anchor</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_travel_anchor</p>
+</td></tr>
+<tr><td>enderio.gui.block_vacuum_chest</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_vacuum_chest</p>
+</td></tr>
+<tr><td>enderio.gui.block_vat</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_vat</p>
+</td></tr>
+<tr><td>enderio.gui.block_weather_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_weather_obelisk</p>
+</td></tr>
+<tr><td>enderio.gui.block_wired_charger</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_wired_charger</p>
+</td></tr>
+<tr><td>enderio.gui.block_zombie_generator</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's block_zombie_generator</p>
+</td></tr>
+<tr><td>enderio.gui.item_advanced_item_filter</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's item_advanced_item_filter</p>
+</td></tr>
+<tr><td>enderio.gui.item_basic_item_filter</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's item_basic_item_filter</p>
+</td></tr>
+<tr><td>enderio.gui.item_big_advanced_item_filter</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's item_big_advanced_item_filter</p>
+</td></tr>
+<tr><td>enderio.gui.item_big_item_filter</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's item_big_item_filter</p>
+</td></tr>
+<tr><td>enderio.gui.item_existing_item_filter</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's item_existing_item_filter</p>
+</td></tr>
+<tr><td>enderio.gui.item_limited_item_filter</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's item_limited_item_filter</p>
+</td></tr>
+<tr><td>enderio.gui.item_mod_item_filter</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's item_mod_item_filter</p>
+</td></tr>
+<tr><td>enderio.gui.item_power_item_filter</td><td class='all'>ALL</td><td>
+<p>Permission to open the GUI(s) of Ender IO's item_power_item_filter</p>
+</td></tr>
+<tr><td>enderio.soulvial.pickup</td><td class='all'>ALL</td><td>
+<p>Permission to pickup an entity with Ender IO's soul vessel</p>
+</td></tr>
+<tr><td>enderio.soulvial.pickup_owned</td><td class='op'>OP</td><td>
+<p>Permission to pickup an entity that is owned by another player with Ender IO's soul vessel</p>
+</td></tr>
+<tr><td>enderio.soulvial.place</td><td class='all'>ALL</td><td>
+<p>Permission to place down an entity with Ender IO's soul vessel</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_advanced_power_monitor</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_advanced_power_monitor of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_alloy_smelter</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_alloy_smelter of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_attractor_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_attractor_obelisk of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_aversion_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_aversion_obelisk of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_buffer</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_buffer of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_cap_bank</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_cap_bank of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_combustion_generator</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_combustion_generator of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_conduit_bundle</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_conduit_bundle of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_detector_block</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_detector_block of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_detector_block_silent</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_detector_block_silent of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_dialing_device</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_dialing_device of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_electric_light</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_electric_light of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_enchanter</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_enchanter of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_enderman_skull</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_enderman_skull of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_enhanced_combustion_generator</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_enhanced_combustion_generator of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_enhanced_combustion_generator_top</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_enhanced_combustion_generator_top of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_experience_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_experience_obelisk of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_farm_station</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_farm_station of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_gauge</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_gauge of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_impulse_hopper</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_impulse_hopper of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_infinity_fog</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_infinity_fog of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_inhibitor_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_inhibitor_obelisk of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_killer_joe</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_killer_joe of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_light_node</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_light_node of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_painter</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_painter of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_power_monitor</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_power_monitor of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_powered_spawner</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_powered_spawner of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_relocator_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_relocator_obelisk of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_reservoir</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_reservoir of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_sag_mill</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_sag_mill of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_simple_alloy_smelter</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_simple_alloy_smelter of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_simple_sag_mill</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_simple_sag_mill of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_simple_stirling_generator</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_simple_stirling_generator of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_slice_and_splice</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_slice_and_splice of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_solar_panel</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_solar_panel of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_soul_binder</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_soul_binder of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_stirling_generator</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_stirling_generator of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_tank</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_tank of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_tele_pad</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_tele_pad of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_transceiver</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_transceiver of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_travel_anchor</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_travel_anchor of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_vacuum_chest</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_vacuum_chest of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_vat</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_vat of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_weather_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_weather_obelisk of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_wired_charger</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_wired_charger of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_wireless_charger</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_wireless_charger of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_xp_vacuum</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_xp_vacuum of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.break.block_zombie_generator</td><td class='all'>ALL</td><td>
+<p>Permission to wrench-break the block block_zombie_generator of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_advanced_power_monitor</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_advanced_power_monitor of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_alloy_smelter</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_alloy_smelter of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_attractor_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_attractor_obelisk of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_aversion_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_aversion_obelisk of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_buffer</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_buffer of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_cap_bank</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_cap_bank of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_combustion_generator</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_combustion_generator of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_conduit_bundle</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_conduit_bundle of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_detector_block</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_detector_block of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_detector_block_silent</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_detector_block_silent of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_dialing_device</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_dialing_device of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_electric_light</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_electric_light of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_enchanter</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_enchanter of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_enderman_skull</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_enderman_skull of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_enhanced_combustion_generator</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_enhanced_combustion_generator of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_enhanced_combustion_generator_top</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_enhanced_combustion_generator_top of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_experience_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_experience_obelisk of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_farm_station</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_farm_station of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_gauge</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_gauge of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_impulse_hopper</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_impulse_hopper of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_infinity_fog</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_infinity_fog of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_inhibitor_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_inhibitor_obelisk of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_killer_joe</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_killer_joe of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_light_node</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_light_node of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_painter</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_painter of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_power_monitor</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_power_monitor of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_powered_spawner</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_powered_spawner of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_relocator_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_relocator_obelisk of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_reservoir</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_reservoir of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_sag_mill</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_sag_mill of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_simple_alloy_smelter</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_simple_alloy_smelter of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_simple_sag_mill</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_simple_sag_mill of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_simple_stirling_generator</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_simple_stirling_generator of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_slice_and_splice</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_slice_and_splice of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_solar_panel</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_solar_panel of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_soul_binder</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_soul_binder of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_stirling_generator</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_stirling_generator of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_tank</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_tank of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_tele_pad</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_tele_pad of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_transceiver</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_transceiver of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_travel_anchor</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_travel_anchor of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_vacuum_chest</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_vacuum_chest of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_vat</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_vat of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_weather_obelisk</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_weather_obelisk of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_wired_charger</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_wired_charger of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_wireless_charger</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_wireless_charger of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_xp_vacuum</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_xp_vacuum of Ender IO</p>
+</td></tr>
+<tr><td>enderio.wrench.iomode.block_zombie_generator</td><td class='all'>ALL</td><td>
+<p>Permission to set IO mode by wrench-clicking the block block_zombie_generator of Ender IO</p>
+</td></tr>
+<tr><td>ftbutilities.back.infinite</td><td class='none'>NONE</td><td>
 <p>Allow to use 'back' command infinite times</p>
 </td></tr>
-<tr><td>ftbu.chunkloader.load_offline</td><td class='all'>ALL</td><td>
+<tr><td>ftbutilities.chunkloader.load_offline</td><td class='all'>ALL</td><td>
 <p>Keep loaded chunks working when player goes offline</p>
 </td></tr>
-<tr><td>ftbu.claims.block.cnb</td><td class='op'>OP</td><td>
+<tr><td>ftbutilities.claims.block.cnb</td><td class='op'>OP</td><td>
 <p>Allow to edit C&B bits in claimed chunks</p>
 </td></tr>
-<tr><td>ftbu.claims.block.edit.*</td><td class='op'>OP</td><td>
+<tr><td>ftbutilities.claims.block.edit.*</td><td class='op'>OP</td><td>
 <p>Permission for blocks that players can break and place within claimed chunks</p>
 </td></tr>
-<tr><td>ftbu.claims.block.edit.gravestone.gravestone</td><td class='all'>ALL</td><td>
+<tr><td>ftbutilities.claims.block.edit.gravestone.gravestone</td><td class='all'>ALL</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.block.interact.*</td><td class='op'>OP</td><td>
+<tr><td>ftbutilities.claims.block.edit.openblocks.grave</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbutilities.claims.block.interact.*</td><td class='op'>OP</td><td>
 <p>Permission for blocks that players can right-click within claimed chunks</p>
 </td></tr>
-<tr><td>ftbu.claims.block.interact.integrateddynamics.menril_door</td><td class='all'>ALL</td><td>
+<tr><td>ftbutilities.claims.block.interact.enderio.block_dark_steel_anvil</td><td class='all'>ALL</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.block.interact.minecraft.acacia_door</td><td class='all'>ALL</td><td>
+<tr><td>ftbutilities.claims.block.interact.enderio.block_dark_steel_door</td><td class='all'>ALL</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.block.interact.minecraft.anvil</td><td class='all'>ALL</td><td>
+<tr><td>ftbutilities.claims.block.interact.enderio.block_painted_dark_steel_door</td><td class='all'>ALL</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.block.interact.minecraft.birch_door</td><td class='all'>ALL</td><td>
+<tr><td>ftbutilities.claims.block.interact.enderio.block_painted_iron_door</td><td class='all'>ALL</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.block.interact.minecraft.crafting_table</td><td class='all'>ALL</td><td>
+<tr><td>ftbutilities.claims.block.interact.enderio.block_painted_wooden_door</td><td class='all'>ALL</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.block.interact.minecraft.dark_oak_door</td><td class='all'>ALL</td><td>
+<tr><td>ftbutilities.claims.block.interact.integrateddynamics.menril_door</td><td class='all'>ALL</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.block.interact.minecraft.iron_door</td><td class='all'>ALL</td><td>
+<tr><td>ftbutilities.claims.block.interact.minecraft.acacia_door</td><td class='all'>ALL</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.block.interact.minecraft.jungle_door</td><td class='all'>ALL</td><td>
+<tr><td>ftbutilities.claims.block.interact.minecraft.anvil</td><td class='all'>ALL</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.block.interact.minecraft.spruce_door</td><td class='all'>ALL</td><td>
+<tr><td>ftbutilities.claims.block.interact.minecraft.birch_door</td><td class='all'>ALL</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.block.interact.minecraft.wooden_door</td><td class='all'>ALL</td><td>
+<tr><td>ftbutilities.claims.block.interact.minecraft.crafting_table</td><td class='all'>ALL</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.item.*</td><td class='all'>ALL</td><td>
+<tr><td>ftbutilities.claims.block.interact.minecraft.dark_oak_door</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbutilities.claims.block.interact.minecraft.iron_door</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbutilities.claims.block.interact.minecraft.jungle_door</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbutilities.claims.block.interact.minecraft.spruce_door</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbutilities.claims.block.interact.minecraft.wooden_door</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbutilities.claims.item.*</td><td class='all'>ALL</td><td>
 <p>Permission for items that players can right-click in air within claimed chunks</p>
 </td></tr>
-<tr><td>ftbu.claims.item.forge.bucketfilled</td><td class='op'>OP</td><td>
+<tr><td>ftbutilities.claims.item.forge.bucketfilled</td><td class='op'>OP</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.item.minecraft.bucket</td><td class='op'>OP</td><td>
+<tr><td>ftbutilities.claims.item.minecraft.bucket</td><td class='op'>OP</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.item.minecraft.end_crystal</td><td class='op'>OP</td><td>
+<tr><td>ftbutilities.claims.item.minecraft.end_crystal</td><td class='op'>OP</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.item.minecraft.lava_bucket</td><td class='op'>OP</td><td>
+<tr><td>ftbutilities.claims.item.minecraft.lava_bucket</td><td class='op'>OP</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.item.minecraft.water_bucket</td><td class='op'>OP</td><td>
+<tr><td>ftbutilities.claims.item.minecraft.water_bucket</td><td class='op'>OP</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.modify.others</td><td class='op'>OP</td><td>
+<tr><td>ftbutilities.claims.item.tp.infin_bucket</td><td class='op'>OP</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbutilities.claims.modify.others</td><td class='op'>OP</td><td>
 <p>Allow player to modify other team chunks</p>
 </td></tr>
-<tr><td>ftbu.display.admin_info</td><td class='op'>OP</td><td>
+<tr><td>ftbutilities.display.admin_info</td><td class='op'>OP</td><td>
 <p>Display 'Admin' in Server Info</p>
 </td></tr>
-<tr><td>ftbu.homes.cross_dim</td><td class='all'>ALL</td><td>
+<tr><td>ftbutilities.homes.cross_dim</td><td class='all'>ALL</td><td>
 <p>Can use /home to teleport to/from another dimension</p>
 </td></tr>
-<tr><td>ftbu.homes.list_other</td><td class='all'>ALL</td><td>
-<p></p>
+<tr><td>ftbutilities.homes.list_other</td><td class='op'>OP</td><td>
+<p>Allow to list other people homes</p>
 </td></tr>
-<tr><td>ftbu.homes.teleport_other</td><td class='all'>ALL</td><td>
-<p></p>
+<tr><td>ftbutilities.homes.teleport_other</td><td class='op'>OP</td><td>
+<p>Allow to teleport to other people homes</p>
 </td></tr>
 </table></body></html>

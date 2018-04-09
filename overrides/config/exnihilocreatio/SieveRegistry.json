@@ -1324,24 +1324,6 @@
       "meshLevel": 4
     }
   ],
-  "minecraft:magma:0":[
-    {
-      "drop": {
-        "name": "tp:lava_crystal",
-        "meta": 0
-      },
-      "chance": 0.123,
-      "meshLevel": 3
-    },
-    {
-      "drop": {
-        "name": "tp:lava_crystal",
-        "meta": 0
-      },
-      "chance": 0.3,
-      "meshLevel": 4
-    }
-  ],
   "minecraft:sponge:0": [
     {
       "drop": {

@@ -1,3 +1,4 @@
+#packmode normal
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
@@ -99,27 +100,6 @@ recipes.addShaped("ct_diamond_mesh", <exnihilocreatio:item_mesh:4>, [
   [<ore:string>, <ore:gemDiamond>, <ore:string>],
   [<ore:gemDiamond>, <exnihilocreatio:item_mesh:1>, <ore:gemDiamond>],
   [<ore:string>, <ore:gemDiamond>, <ore:string>]
-]);
-
-//=====RFTools=====
-recipes.remove(<rftools:machine_frame>);
-recipes.remove(<rftools:machine_base>);
-recipes.remove(<rftoolsdim:dimension_builder>);
-recipes.addShaped("ct_rft_machine_frame", <rftools:machine_frame>, [
-  [<ore:plateIron>, <actuallyadditions:item_crystal:1>, <ore:plateIron>],
-  [<ore:plateElectrum>, null, <ore:plateElectrum>],
-  [<ore:plateIron>, <actuallyadditions:item_crystal:1>, <ore:plateIron>]
-]);
-recipes.addShapeless("ct_rft_machine_frame_alt", <rftools:machine_frame>, [
-  <rftools:machine_base>, <rftools:machine_base>
-]);
-recipes.addShapeless("ct_rft_machine_base", <rftools:machine_base> * 2, [
-  <rftools:machine_frame>
-]);
-recipes.addShaped("ct_dimension_builder", <rftoolsdim:dimension_builder>, [
-  [<draconicevolution:dislocator_advanced>, <extrautils2:opinium:4>, <draconicevolution:dislocator_advanced>],
-  [<actuallyadditions:block_crystal_empowered:2>, <rftools:machine_frame>, <actuallyadditions:block_crystal_empowered:2>],
-  [<extrautils2:opinium:2>, <extrautils2:opinium:2>, <extrautils2:opinium:2>]
 ]);
 
 print("Normal Mode Recipes loaded.");
