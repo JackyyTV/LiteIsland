@@ -14,7 +14,6 @@ print("Loading tweaks...");
 //Adds stuff to OreDict
 <ore:stickStone>.add(<tconstruct:stone_stick>);
 <ore:oreEnder>.add(<tp:ender_ore>);
-<ore:oreSticky>.add(<aroma1997sdimension:stickyore>);
 <ore:oreDraconium>.add(<draconicevolution:draconium_ore:1>);
 <ore:oreNetherDraconium>.add(<draconicevolution:draconium_ore:1>);
 <ore:oreDraconium>.add(<draconicevolution:draconium_ore:2>);

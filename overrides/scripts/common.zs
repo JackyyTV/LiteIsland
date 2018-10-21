@@ -41,7 +41,7 @@ val ToBeRemoved = [
   <mekanismtools:bronzeshovel>, <mekanismtools:bronzehoe>, <quantumstorage:trashcan>, <quantumstorage:trashcanfluid>,
   <chisel:futura>, <excompressum:compressed_block:1>, <excompressum:compressed_block:2>,
   <excompressum:compressed_block:3>, <excompressum:compressed_block:4>, <excompressum:compressed_block:5>,
-  <excompressum:compressed_block:9>, <excompressum:iron_mesh>, <hammercore:iron_gear>, <cyclicmagic:uncrafting_block>,
+  <excompressum:compressed_block:9>, <excompressum:iron_mesh>, <cyclicmagic:uncrafting_block>,
   <betterbuilderswands:wanddiamond>, <betterbuilderswands:wandiron>, <tp:diamond_spear>, <tp:iron_spear>,
   <twilightforest:uncrafting_table>, <ironchest:iron_gold_shulker_upgrade>, <ironchest:gold_diamond_shulker_upgrade>,
   <ironchest:copper_silver_shulker_upgrade>, <ironchest:silver_gold_shulker_upgrade>, <ironchest:copper_iron_shulker_upgrade>,
@@ -63,7 +63,7 @@ val ARInput = [
   <thermalfoundation:tool.shovel_steel>, <thermalfoundation:tool.hoe_steel>, <thermalfoundation:armor.helmet_bronze>,
   <thermalfoundation:armor.plate_bronze>, <thermalfoundation:armor.legs_bronze>, <thermalfoundation:armor.boots_bronze>,
   <thermalfoundation:tool.sword_bronze>, <thermalfoundation:tool.pickaxe_bronze>, <thermalfoundation:tool.axe_bronze>,
-  <thermalfoundation:tool.shovel_bronze>, <thermalfoundation:tool.hoe_bronze>, <thermalfoundation:material:24>,
+  <thermalfoundation:tool.shovel_bronze>, <thermalfoundation:tool.hoe_bronze>,
   <ironchest:iron_gold_chest_upgrade>, <ironchest:gold_diamond_chest_upgrade>, <ironchest:copper_silver_chest_upgrade>,
   <ironchest:silver_gold_chest_upgrade>, <ironchest:copper_iron_chest_upgrade>, <ironchest:diamond_crystal_chest_upgrade>,
   <ironchest:diamond_obsidian_chest_upgrade>, <extrautils2:trashcan>, <extrautils2:trashcanfluid>,
@@ -82,7 +82,7 @@ val AROutput = [
   <mekanismtools:steelboots>, <mekanismtools:steelsword>, <mekanismtools:steelpickaxe>, <mekanismtools:steelaxe>,
   <mekanismtools:steelshovel>, <mekanismtools:steelhoe>, <mekanismtools:bronzehelmet>, <mekanismtools:bronzechestplate>,
   <mekanismtools:bronzeleggings>, <mekanismtools:bronzeboots>, <mekanismtools:bronzesword>, <mekanismtools:bronzepickaxe>,
-  <mekanismtools:bronzeaxe>, <mekanismtools:bronzeshovel>, <mekanismtools:bronzehoe>, <hammercore:iron_gear>,
+  <mekanismtools:bronzeaxe>, <mekanismtools:bronzeshovel>, <mekanismtools:bronzehoe>,
   <ironchest:iron_gold_shulker_upgrade>, <ironchest:gold_diamond_shulker_upgrade>, <ironchest:copper_silver_shulker_upgrade>,
   <ironchest:silver_gold_shulker_upgrade>, <ironchest:copper_iron_shulker_upgrade>, <ironchest:diamond_crystal_shulker_upgrade>,
   <ironchest:diamond_obsidian_shulker_upgrade>, <quantumstorage:trashcan>, <quantumstorage:trashcanfluid>,
@@ -153,8 +153,8 @@ recipes.addShaped("ct_legendary_lootbag", <lootbags:itemlootbag:4>, [
 
 //=====Aroma1997's Dimensional World=====
 //Re-added recipes so that Enchiridion can grab the recipes
-recipes.remove(<aroma1997sdimension:portaligniter:*>);
-recipes.addShaped("ct_mining_multitool", <aroma1997sdimension:portaligniter>, [
+recipes.remove(<aroma1997sdimension:miningmultitool:*>);
+recipes.addShaped("ct_mining_multitool", <aroma1997sdimension:miningmultitool>, [
   [<ore:bricksStone>, <minecraft:iron_pickaxe>, <ore:bricksStone>],
   [null, <minecraft:flint_and_steel>, null],
   [null, <ore:stickWood>, null]
@@ -162,12 +162,12 @@ recipes.addShaped("ct_mining_multitool", <aroma1997sdimension:portaligniter>, [
 recipes.remove(<aroma1997sdimension:dimensionchanger>);
 recipes.addShaped("ct_dimension_changer", <aroma1997sdimension:dimensionchanger>, [
   [<ore:gemDiamond>, <minecraft:ender_eye>, <ore:gemDiamond>],
-  [<ore:enderpearl>, <aroma1997sdimension:portaligniter:*>, <ore:enderpearl>],
+  [<ore:enderpearl>, <aroma1997sdimension:miningmultitool:*>, <ore:enderpearl>],
   [<ore:gemDiamond>, <minecraft:ender_eye>, <ore:gemDiamond>]
 ]);
 recipes.remove(<aroma1997sdimension:portalframe>);
 recipes.addShapeless("ct_portal_frame", <aroma1997sdimension:portalframe>, [
-  <aroma1997sdimension:portaligniter:*>, <ore:bricksStone>
+  <aroma1997sdimension:miningmultitool:*>, <ore:bricksStone>
 ]);
 
 //=====Ex Compressum=====
